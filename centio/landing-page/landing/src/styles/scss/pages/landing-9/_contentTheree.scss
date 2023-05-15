@@ -1,0 +1,90 @@
+.content-section-21 {
+    padding: 60px 0;
+
+    @media (min-width:768px) {
+        padding: 80px 0;
+    }
+
+    @media (min-width:992px) {
+        padding: 100px 0;
+    }
+    @media (min-width:992px) {
+        padding: 130px 0;
+    }
+
+    &__image-group {
+        position: relative;
+
+        img {
+            filter: drop-shadow(-6px 6px 60px rgba(0, 0, 0, 0.08));
+            border-radius: 10px;
+        }
+
+        &--card {
+            position: absolute;
+            top: 50%;
+            right: 12%;
+            transform: translateY(-50%);
+            width: 28.2%;
+        }
+    }
+
+    &__tab {
+        margin-top: 30px;
+        @media (min-width:768px) {
+            margin-top: 40px;
+        }
+        @media (min-width:1200px) {
+            margin-right: 17%;
+        }
+        .nav-tabs {
+            border: 0;
+            margin-bottom: 20px;
+            justify-content: center;
+            @media (min-width:374px) {
+                border-bottom: 2px solid rgb(0, 11, 51, 0.2);
+                justify-content: start;
+            }
+            .nav-item {
+                @media (min-width:480px) {
+                    margin-right: 16%;
+                    &:last-child{
+                        margin-right: 0;
+                    }
+                }
+            }
+            .nav-link {
+                padding: 20px;
+                border: 0;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 24px;
+                color: rgb(0, 11, 51, 0.8);
+                &.active {
+                    color: #FD4C5C;
+                    background: none;
+                    border-bottom: 2px solid #FD4C5C;
+                }
+            }
+        }
+        .tab-pane{
+            &__content{
+                .text{
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 26px;
+                }
+                .btn{
+                    margin-top: 30px;
+                    @media (min-width:768px) {
+                        margin-top: 40px;
+                    }
+                    min-width: 150px;
+                    @media (min-width:768px) {
+                        min-width: 174px;
+                    }
+                }
+            }
+        }
+    }
+}

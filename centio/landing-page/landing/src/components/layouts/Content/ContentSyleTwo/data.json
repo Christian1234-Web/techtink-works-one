@@ -1,0 +1,20 @@
+[
+    {
+        "id":"1a",
+      "title": "Free updates forever",
+      "icon": "./image/home-1/content-icon-3.png",
+      "text": "Your well-oiled machine doesn’t have to <br class='d-none d-lg-block'/> break down due to build processes."
+    },
+    {
+        "id":"1b",
+      "title": "Responsive web design",
+      "icon": "./image/home-1/content-icon-2.png",
+      "text": "Your well-oiled machine doesn’t have to <br class='d-none d-lg-block'/> break down due to build processes."
+    },
+    {
+        "id":"1c",
+      "title": "Loaded with features",
+      "icon": "./image/home-1/content-icon-1.png",
+      "text": "Your well-oiled machine doesn’t have to <br class='d-none d-lg-block'/> break down due to build processes."
+    }
+  ]

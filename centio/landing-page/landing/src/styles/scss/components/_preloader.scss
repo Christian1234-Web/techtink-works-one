@@ -1,0 +1,238 @@
+
+//<div class="preloader">
+//<div class="spinner"></div>
+//<div class="spinner-2"></div>
+//</div>
+@use "../abstracts/colors"  as *;
+
+$width: 15px;
+$height: 15px;
+
+$bounce_height: 30px;
+.preloader-wrapper{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  z-index: 999999;
+  justify-content: center;
+  background: #fff;
+  // &:before{
+  //   animation: bg-changer 5s infinite ease-in-out;
+  //   top:0;
+  //   left: 0;
+  //   position: absolute;
+  //   content: "";
+  //   height: 100%;
+  //   width: 100%;
+  // }
+}
+// .preloader-2{
+//   position: relative;
+//   height: 75px;
+//   width: 75px;
+//   margin: 50px auto 0;
+//   .spinner{
+//     width: 75px;
+//     height: 75px;
+//     margin: 0;
+//     border-top: 10px solid #ff3f34;
+//     box-shadow: 4px 4px 5px #d2d2d2 inset;
+//     border-right: 10px solid transparent;
+//     border-radius: 50%;
+//     animation: 1.5s spin linear infinite;
+//   }
+//   .spinner-2{
+//     width: 75px;
+//     height: 75px;
+//     margin: 0;
+//     border-top: 10px solid #0fbcf9;
+//     border-left: 10px solid transparent;
+//     border-radius: 50%;
+//     position: absolute;
+//     top: 0;
+//     animation: 1.5s spin-2 linear infinite;
+//   }
+// }
+// @keyframes spin{
+//   from{ transform: rotate(0deg); }
+//   to{ transform: rotate(360deg); }
+// }
+// @keyframes spin-2{
+//   from{ transform: rotate(360deg); }
+//   to{ transform: rotate(0deg); }
+// }
+
+
+
+// @keyframes bg-changer {
+//   0% {
+//     background: rgba($blue-ribbon,.2);
+//   }
+//   8.33% {
+//     background: rgba($blue-ribbon,.2);
+//   }
+//   16.67% {
+//     background: rgba($blue-ribbon,.2);
+//   }
+//   25% {
+//     background: rgba($electric-violet,.2);
+//   }
+//   33.33% {
+//     background: rgba($electric-violet,.2);
+//   }
+//   41.67% {
+//     background: rgba($electric-violet,.2);
+//   }
+//   50% {
+//     background: rgba($bright-sun,.2);
+//   }
+//   58.33% {
+//     background: rgba($bright-sun,.2);
+//   }
+//   66.67% {
+//     background: rgba($bright-sun,.2);
+//   }
+//   75% {
+//     background: rgba($caribbean-green ,.2);
+//   }
+//   83.33% {
+//     background: rgba($caribbean-green ,.2);
+//   }
+//   91.67% {
+//     background: rgba($caribbean-green ,.2);
+//   }
+//   100% {
+//     background: rgba($blue-ribbon,.2);
+//   }
+// }
+// @keyframes dots-loader {
+//   0% {
+//     -moz-box-shadow: $blue-ribbon -14px -14px 0 7px, $electric-violet 14px -14px 0 7px, $bright-sun 14px 14px 0 7px, $caribbean-green -14px 14px 0 7px;
+//     -webkit-box-shadow: $blue-ribbon -14px -14px 0 7px, $electric-violet 14px -14px 0 7px, $bright-sun 14px 14px 0 7px, $caribbean-green -14px 14px 0 7px;
+//     box-shadow: $blue-ribbon -14px -14px 0 7px, $electric-violet 14px -14px 0 7px, $bright-sun 14px 14px 0 7px, $caribbean-green -14px 14px 0 7px;
+//   }
+//   8.33% {
+//     -moz-box-shadow: $blue-ribbon 14px -14px 0 7px, $electric-violet 14px -14px 0 7px, $bright-sun 14px 14px 0 7px, $caribbean-green -14px 14px 0 7px;
+//     -webkit-box-shadow: $blue-ribbon 14px -14px 0 7px, $electric-violet 14px -14px 0 7px, $bright-sun 14px 14px 0 7px, $caribbean-green -14px 14px 0 7px;
+//     box-shadow: $blue-ribbon 14px -14px 0 7px, $electric-violet 14px -14px 0 7px, $bright-sun 14px 14px 0 7px, $caribbean-green -14px 14px 0 7px;
+//   }
+//   16.67% {
+//     -moz-box-shadow: $blue-ribbon 14px 14px 0 7px, $electric-violet 14px 14px 0 7px, $bright-sun 14px 14px 0 7px, $caribbean-green -14px 14px 0 7px;
+//     -webkit-box-shadow: $blue-ribbon 14px 14px 0 7px, $electric-violet 14px 14px 0 7px, $bright-sun 14px 14px 0 7px, $caribbean-green -14px 14px 0 7px;
+//     box-shadow: $blue-ribbon 14px 14px 0 7px, $electric-violet 14px 14px 0 7px, $bright-sun 14px 14px 0 7px, $caribbean-green -14px 14px 0 7px;
+//   }
+//   25% {
+//     -moz-box-shadow: $blue-ribbon -14px 14px 0 7px, $electric-violet -14px 14px 0 7px, $bright-sun -14px 14px 0 7px, $caribbean-green -14px 14px 0 7px;
+//     -webkit-box-shadow: $blue-ribbon -14px 14px 0 7px, $electric-violet -14px 14px 0 7px, $bright-sun -14px 14px 0 7px, $caribbean-green -14px 14px 0 7px;
+//     box-shadow: $blue-ribbon -14px 14px 0 7px, $electric-violet -14px 14px 0 7px, $bright-sun -14px 14px 0 7px, $caribbean-green -14px 14px 0 7px;
+//   }
+//   33.33% {
+//     -moz-box-shadow: $blue-ribbon -14px -14px 0 7px, $electric-violet -14px 14px 0 7px, $bright-sun -14px -14px 0 7px, $caribbean-green -14px -14px 0 7px;
+//     -webkit-box-shadow: $blue-ribbon -14px -14px 0 7px, $electric-violet -14px 14px 0 7px, $bright-sun -14px -14px 0 7px, $caribbean-green -14px -14px 0 7px;
+//     box-shadow: $blue-ribbon -14px -14px 0 7px, $electric-violet -14px 14px 0 7px, $bright-sun -14px -14px 0 7px, $caribbean-green -14px -14px 0 7px;
+//   }
+//   41.67% {
+//     -moz-box-shadow: $blue-ribbon 14px -14px 0 7px, $electric-violet -14px 14px 0 7px, $bright-sun -14px -14px 0 7px, $caribbean-green 14px -14px 0 7px;
+//     -webkit-box-shadow: $blue-ribbon 14px -14px 0 7px, $electric-violet -14px 14px 0 7px, $bright-sun -14px -14px 0 7px, $caribbean-green 14px -14px 0 7px;
+//     box-shadow: $blue-ribbon 14px -14px 0 7px, $electric-violet -14px 14px 0 7px, $bright-sun -14px -14px 0 7px, $caribbean-green 14px -14px 0 7px;
+//   }
+//   50% {
+//     -moz-box-shadow: $blue-ribbon 14px 14px 0 7px, $electric-violet -14px 14px 0 7px, $bright-sun -14px -14px 0 7px, $caribbean-green 14px -14px 0 7px;
+//     -webkit-box-shadow: $blue-ribbon 14px 14px 0 7px, $electric-violet -14px 14px 0 7px, $bright-sun -14px -14px 0 7px, $caribbean-green 14px -14px 0 7px;
+//     box-shadow: $blue-ribbon 14px 14px 0 7px, $electric-violet -14px 14px 0 7px, $bright-sun -14px -14px 0 7px, $caribbean-green 14px -14px 0 7px;
+//   }
+//   58.33% {
+//     -moz-box-shadow: $blue-ribbon -14px 14px 0 7px, $electric-violet -14px 14px 0 7px, $bright-sun -14px -14px 0 7px, $caribbean-green 14px -14px 0 7px;
+//     -webkit-box-shadow: $blue-ribbon -14px 14px 0 7px, $electric-violet -14px 14px 0 7px, $bright-sun -14px -14px 0 7px, $caribbean-green 14px -14px 0 7px;
+//     box-shadow: $blue-ribbon -14px 14px 0 7px, $electric-violet -14px 14px 0 7px, $bright-sun -14px -14px 0 7px, $caribbean-green 14px -14px 0 7px;
+//   }
+//   66.67% {
+//     -moz-box-shadow: $blue-ribbon -14px -14px 0 7px, $electric-violet -14px -14px 0 7px, $bright-sun -14px -14px 0 7px, $caribbean-green 14px -14px 0 7px;
+//     -webkit-box-shadow: $blue-ribbon -14px -14px 0 7px, $electric-violet -14px -14px 0 7px, $bright-sun -14px -14px 0 7px, $caribbean-green 14px -14px 0 7px;
+//     box-shadow: $blue-ribbon -14px -14px 0 7px, $electric-violet -14px -14px 0 7px, $bright-sun -14px -14px 0 7px, $caribbean-green 14px -14px 0 7px;
+//   }
+//   75% {
+//     -moz-box-shadow: $blue-ribbon 14px -14px 0 7px, $electric-violet 14px -14px 0 7px, $bright-sun 14px -14px 0 7px, $caribbean-green 14px -14px 0 7px;
+//     -webkit-box-shadow: $blue-ribbon 14px -14px 0 7px, $electric-violet 14px -14px 0 7px, $bright-sun 14px -14px 0 7px, $caribbean-green 14px -14px 0 7px;
+//     box-shadow: $blue-ribbon 14px -14px 0 7px, $electric-violet 14px -14px 0 7px, $bright-sun 14px -14px 0 7px, $caribbean-green 14px -14px 0 7px;
+//   }
+//   83.33% {
+//     -moz-box-shadow: $blue-ribbon 14px 14px 0 7px, $electric-violet 14px -14px 0 7px, $bright-sun 14px 14px 0 7px, $caribbean-green 14px 14px 0 7px;
+//     -webkit-box-shadow: $blue-ribbon 14px 14px 0 7px, $electric-violet 14px -14px 0 7px, $bright-sun 14px 14px 0 7px, $caribbean-green 14px 14px 0 7px;
+//     box-shadow: $blue-ribbon 14px 14px 0 7px, $electric-violet 14px -14px 0 7px, $bright-sun 14px 14px 0 7px, $caribbean-green 14px 14px 0 7px;
+//   }
+//   91.67% {
+//     -moz-box-shadow: $blue-ribbon -14px 14px 0 7px, $electric-violet 14px -14px 0 7px, $bright-sun 14px 14px 0 7px, $caribbean-green -14px 14px 0 7px;
+//     -webkit-box-shadow: $blue-ribbon -14px 14px 0 7px, $electric-violet 14px -14px 0 7px, $bright-sun 14px 14px 0 7px, $caribbean-green -14px 14px 0 7px;
+//     box-shadow: $blue-ribbon -14px 14px 0 7px, $electric-violet 14px -14px 0 7px, $bright-sun 14px 14px 0 7px, $caribbean-green -14px 14px 0 7px;
+//   }
+//   100% {
+//     -moz-box-shadow: $blue-ribbon -14px -14px 0 7px, $electric-violet 14px -14px 0 7px, $bright-sun 14px 14px 0 7px, $caribbean-green -14px 14px 0 7px;
+//     -webkit-box-shadow: $blue-ribbon -14px -14px 0 7px, $electric-violet 14px -14px 0 7px, $bright-sun 14px 14px 0 7px, $caribbean-green -14px 14px 0 7px;
+//     box-shadow: $blue-ribbon -14px -14px 0 7px, $electric-violet 14px -14px 0 7px, $bright-sun 14px 14px 0 7px, $caribbean-green -14px 14px 0 7px;
+//   }
+// }
+// /* :not(:required) hides this rule from IE9 and below */
+// .dots-loader:not(:required) {
+//   overflow: hidden;
+//   position: relative;
+//   text-indent: -9999px;
+//   display: inline-block;
+//   width: 7px;
+//   height: 7px;
+//   background: transparent;
+//   border-radius: 100%;
+//   box-shadow: $blue-ribbon -14px -14px 0 7px, $electric-violet 14px -14px 0 7px, $bright-sun 14px 14px 0 7px, $caribbean-green -14px 14px 0 7px;
+//   animation: dots-loader 5s infinite ease-in-out;
+//   transform-origin: 50% 50%;
+// }
+
+
+.preloader-wrapper{
+  .text {
+    color: $carnation;
+    display: inline-block;
+    margin-left: 5px;
+    font-weight:600;
+  }
+  
+  .bounceball {
+    position: relative;
+    display: inline-block;
+    height: 37px;
+    width: $width;
+    &:before {
+      position: absolute;
+      content: '';
+      display: block;
+      top: 0;
+      width: $width;
+      height: $height;
+      border-radius: 50%;
+      background-color: $carnation;
+      transform-origin: 50%;
+      animation: bounce 500ms alternate infinite ease;
+    }
+  }
+}
+
+@keyframes bounce {
+  0% {
+    top: $bounce_height;
+    height: 5px;
+    border-radius: 60px 60px 20px 20px;
+    transform: scaleX(2);
+  }
+  35% {
+    height: $height;
+    border-radius: 50%;
+    transform: scaleX(1);
+  }
+  100% {
+    top: 0;
+  }
+}

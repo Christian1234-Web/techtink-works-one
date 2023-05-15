@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "title": "Market Research",
+        "iconText": "1",
+        "text": "Combined with a handful of model <br class='d-none  d-md-block'/> sentence structures looks reasonable."
+    },
+    {
+        "id": 2,
+        "title": "Strategy & Direction",
+        "iconText": "2",
+        "text": "Sed ut perspiciatis unde omnis iste natus <br class='d-none  d-lg-block'/> error sit voluptatem accusantium."
+    },
+    {
+        "id": 3,
+        "title": "Brand Marketing",
+        "iconText": "3",
+        "text": "Marketing chart dolor sit ametu nde <br class='d-none  d-lg-block'/> omnis iste natus adipisicing elit."
+    },
+    {
+        "id": 4,
+        "title": "Smart Scaling",
+        "iconText": "4",
+        "text": "Drop ipsum dolor sit amet sit ametu nde <br class='d-none  d-lg-block'/> omnis iste natus adipisicing elit."
+    }
+]

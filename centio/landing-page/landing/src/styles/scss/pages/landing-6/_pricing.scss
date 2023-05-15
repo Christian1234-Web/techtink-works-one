@@ -1,0 +1,38 @@
+.pricing-section-03 {
+  padding: 55px 0 60px;
+position: relative;
+&__shape{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 23.3%;
+  z-index: -1;
+  img{
+      width: 100%;
+  }
+}
+  @media (min-width:768px) {
+    padding: 75px 0 80px;
+  }
+
+  @media (min-width:992px) {
+    padding: 95px 0 100px;
+  }
+  @media (min-width:1200px) {
+    padding: 125px 0 130px;
+
+  }
+
+  &__title {
+    margin-bottom: 35px;
+    @media (min-width:992px) {
+      margin-bottom: 80px;
+    }
+  }
+
+  .pricing-sider{
+    .slick-slide{
+      margin: 0 12px;
+    }
+  }
+}

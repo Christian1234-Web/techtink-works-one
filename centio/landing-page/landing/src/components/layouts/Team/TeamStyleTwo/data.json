@@ -1,0 +1,42 @@
+[
+  {
+      "id": 1,
+      "image": "./image/home-8/team-1.png",
+      "available": true,
+      "category": "Radiology",
+      "userName": "Dr. Esther Howard",
+      "speciality": "M.B.B.S, Ph.D",
+      "text": "Attending physician, Cardiology editor.",
+      "rating":"4.5"
+  },
+  {
+      "id": 2,
+      "image": "./image/home-8/team-2.png",
+      "available": false,
+      "category": "Neurology",
+      "userName": "Dr. Leslie Alexander",
+      "speciality": "M.B.B.S, Ph.D",
+      "text": "Attending physician, Cardiology editor.",
+      "rating":"4.5"
+  },
+  {
+      "id": 3,
+      "image": "./image/home-8/team-3.png",
+      "available": true,
+      "category": "Cardiology",
+      "userName": "Dr. Kathryn Murphy",
+      "speciality": "M.B.B.S, Ph.D",
+      "text": "Attending physician, Cardiology editor.",
+      "rating":"4.5"
+  },
+  {
+      "id": 4,
+      "image": "./image/home-8/team-4.png",
+      "available": true,
+      "category": "Radiology",
+      "userName": "Dr. Jacob Jones",
+      "speciality": "M.B.B.S, Ph.D",
+      "text": "Attending physician, Cardiology editor.",
+      "rating":"4.5"
+  }
+]

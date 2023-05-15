@@ -1,0 +1,90 @@
+.content-section-17{
+    padding-top: 80px;
+    padding-bottom: 60px;
+    @media (min-width:768px) {
+        padding-top: 102px;
+        padding-bottom: 80px;
+    }
+    @media (min-width:992px) {
+        padding-top: 95px;
+        padding-bottom: 100px;
+    }
+    @media (min-width:1200px) {
+        padding-top: 130px;
+        padding-bottom: 130px;
+    }
+    &__content{
+        margin-bottom: 30px;
+    }
+    &__widget{
+        .col-xl-12{
+            &:nth-child(1){
+                .widget-content {
+                    margin-bottom: 30px;
+                    .widget-icon{
+                        background: rgb(253, 76, 92,0.1);
+                    }
+                }
+            }
+            &:nth-child(2){
+                .widget-content {
+                    .widget-icon{
+                        background: rgb(0, 187, 152,0.1);
+                    }
+                }
+            }
+        }
+        .widget-content {
+            .widget-icon{
+                min-width: 50px;
+                min-height: 50px;
+                max-width: 50px;
+                max-height: 50px;
+                align-items: center;
+                justify-content: center;
+                display: flex;
+                border-radius: 500px;
+            }
+        }
+    }
+    &__button{
+        margin-top: 40px;
+        .btn{
+            min-width: 150px;
+        }
+    }
+    &__image-group{
+        position: relative;
+        img{
+            border-radius: 10px;
+        }
+        &--shape-1{
+            position: absolute;
+            bottom: -12%;
+            left: -9%;
+            width: 27.9%;
+        }
+        &--shape-2{
+            position: absolute;
+            top: -14.6%;
+            right: -9%;
+            width: 35.3%;
+            z-index: -1;
+        }
+        &::before{
+            position: absolute;
+            content: "";
+            top: -20px;
+            right: -20px;
+            width: 100%;
+            height: 100%;
+            background: rgb(255, 200, 62,0.5);
+            border-radius: 10px;
+            z-index: -2;
+            @media (min-width:992px) {
+                top: -35px;
+                right: -35px; 
+            }
+        }
+    }
+}

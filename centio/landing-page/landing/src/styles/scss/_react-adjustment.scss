@@ -1,0 +1,96 @@
+.react-shape-w-100{
+    svg{
+        width: 100%;
+    }
+}
+.react-shape-h-100{
+    svg{
+        height: 100%;
+    }
+}
+.nav-tab--content-2.nav-tab--content-2--02 .nav-link.active {
+    border-radius: 0;
+}
+
+.icon-d-block{
+    svg{
+        display: block;
+    }
+}
+
+.services-section-03__accordion{
+    .accordion{
+        .accordion-item{
+            .accordion-header{
+                .accordion-button{
+                    color: #000B33 !important;
+                    border-top: 1px solid rgb(55, 124, 253, 0.1) ;
+                    border-bottom: 1px solid rgb(55, 124, 253, 0.1);
+                    &.active{
+                        border: 0;
+                        color: #FD4C5C !important;
+                        &:not(.collapsed)::after {
+                            font-family: "Font Awesome 5 Free";
+                            font-weight: 900;
+                            content: "\f068" !important;
+                            transform: rotate(0deg);
+                            color: #FD4C5C !important;
+                            font-size: 16px;
+                            @media (min-width:480px) {
+                                font-size: 18px;
+                            }
+                        }
+                        
+                    &:not(.collapsed) {
+                        position: static;
+                        color: #FD4C5C;
+                        outline: none;
+                        box-shadow: none;
+
+                        &::before {
+                            content: "";
+                            background: #fff;
+                            box-shadow: 0px 4px 40px rgba(43, 89, 255, 0.08);
+                            border-radius: 5px;
+                            height: 100%;
+                            width: 100%;
+                            top: 0;
+                            left: 0;
+                            position: absolute;
+                            z-index: -1;
+                            border: 0;
+                            outline: none;
+                        }
+                    }
+                    }
+
+                    &::after {
+                        background-image: none;
+                        font-family: "Font Awesome 5 Free";
+                        font-weight: 900;
+                        content: "\f067" !important;
+                        color: #000B33 !important;
+                        font-size: 16px;
+                        @media (min-width:480px) {
+                            font-size: 18px;
+                        }
+                    }
+                    
+                    &:not(.collapsed)::after {
+                        font-family: "Font Awesome 5 Free";
+                        font-weight: 900;
+                        transform: rotate(0deg);
+                        color: #FD4C5C;
+                        font-size: 16px;
+                        @media (min-width:480px) {
+                            font-size: 18px;
+                        }
+                    }
+                }
+            }
+        }
+        .accordion-body{
+            padding-top: 0 !important;
+        }
+    }
+}

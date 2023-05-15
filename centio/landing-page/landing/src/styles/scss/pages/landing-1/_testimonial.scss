@@ -1,0 +1,121 @@
+@use "../../abstracts/mixins"as utils;
+
+.testimonial-section-01 {
+    padding-bottom: 60px;
+    padding-top: 37px;
+    background: rgb(43, 89, 255, 0.02);
+    @media (min-width:768px) {
+        padding-top: 70px;
+        padding-bottom: 80px;
+    }
+
+    @media (min-width:992px) {
+        padding-top: 90px;
+        padding-bottom: 100px;    
+    }
+    @media (min-width:1200px) {
+        padding-top: 100px;
+        padding-bottom: 88px;
+    }
+
+    .testimonial-title {
+        margin-bottom: 30px;
+
+        @media (min-width:768px) {
+            margin-bottom: 40px;
+
+        }
+
+        @media (min-width:992px) {
+            margin-bottom: 60px;
+
+        }
+    }
+
+    .testimonil-slider--01 {
+        .slick-list {
+            margin: 0 -12px;
+        }
+
+        .slick-slide {
+            margin: 0 12px;
+        }
+
+    }
+
+    .testimonil-content {
+        img {
+           margin: 0 auto 30px;
+           @media (min-width:992px) {
+               margin: 0 0 30px;  
+           }
+        }
+
+        .text {
+            font-size: 18px;
+            line-height: 1.69;
+            margin-bottom: 16px;
+            @media (min-width:992px) {
+                padding-right: 6%;
+            }
+        }
+
+        .client-info {
+            h6 {
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 24px;
+                color: #000B33;
+                margin-bottom: 5px;
+            }
+
+            span {
+                font-size: 16px;
+                line-height: 26px;
+                color: #000B33;
+                opacity: 0.7;
+            }
+        }
+    }
+
+    .testimonil-imageGroup {
+        margin-bottom: 30px;
+
+        @media (min-width:768px) {
+            margin-bottom: 0;
+        }
+
+        img {
+            max-width: 100%;
+        }
+    }
+
+    .testimonil-slider--01__control-buttons {
+        display: flex;
+        margin: 0 -10px;
+        margin-top: 40px;
+        justify-content: center;
+        @media (min-width:992px) {
+            justify-content: start;
+        }
+
+        .button {
+            @include utils.square(40px, 5px);
+            @include utils.flexAllCenter;
+            border: 0;
+            background-color: #FD4C5C ;
+            margin: 0 10px;
+            transition: .3s;
+            svg{
+                fill: white;
+            }
+            &:hover{
+                background: white;
+                box-shadow: 0px 4px 40px rgb(43 89 255 / 20%);
+                svg{
+                    fill: #FD4C5C;
+                }
+            }
+        }
+    }
+}

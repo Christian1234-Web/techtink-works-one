@@ -1,0 +1,93 @@
+[
+    {
+        "id":"p011",
+        "active":false,
+        "price":5,
+        "currency":"$",
+        "priceIcon":"./image/home-4/price-icon-1.svg",
+        "plan": "Starter Plan",
+        "color":"green",
+        "list": [
+            {
+                "id": "pl100",
+                "text": "800 GB Disk Space"
+            },
+            {
+                "id": "pl101",
+                "text": "Unlimited Support"
+            },
+            {
+                "id": "pl102",
+                "text": "Unlimited Support"
+            },
+            {
+                "id": "pl103",
+                "text": "Full Statistics"
+            },
+            {
+                "id": "pl104",
+                "text": "Free Custom Domain"
+            }
+        ]
+    },
+    {
+        "id":"p012",
+        "active":true,
+        "price":45,
+        "priceIcon":"./image/home-4/price-icon-2.svg",
+        "plan": "Basic Plan",
+        "color":"blue",
+        "list": [
+            {
+                "id": "pl100",
+                "text": "800 GB Disk Space"
+            },
+            {
+                "id": "pl101",
+                "text": "Unlimited Support"
+            },
+            {
+                "id": "pl102",
+                "text": "Unlimited Support"
+            },
+            {
+                "id": "pl103",
+                "text": "Full Statistics"
+            },
+            {
+                "id": "pl104",
+                "text": "Free Custom Domain"
+            }
+        ]
+    },
+    {
+        "id":"p013",
+        "active":false,
+        "price":120,
+        "priceIcon":"./image/home-4/price-icon-3.svg",
+        "plan": "Premium Plan",
+        "color":"red",
+        "list": [
+            {
+                "id": "pl100",
+                "text": "800 GB Disk Space"
+            },
+            {
+                "id": "pl101",
+                "text": "Unlimited Support"
+            },
+            {
+                "id": "pl102",
+                "text": "Unlimited Support"
+            },
+            {
+                "id": "pl103",
+                "text": "Full Statistics"
+            },
+            {
+                "id": "pl104",
+                "text": "Free Custom Domain"
+            }
+        ]
+    }
+]

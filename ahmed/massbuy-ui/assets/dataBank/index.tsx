@@ -1,0 +1,2 @@
+export const CategoryData = [ "All Categories", "Top Deal", "Groceries", "Special Event", "Startup & Business", "Electronics", "Kids & Babies", "Home Appliances", "Kitchen Items", "Others"]
+export const CategoryTab = [ "Electronics", "Groceries", "Kids & babies", "Home Appliances", "Kitchen Items", "Others" ]

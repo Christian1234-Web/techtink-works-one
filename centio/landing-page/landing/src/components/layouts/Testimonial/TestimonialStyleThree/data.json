@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "image": "./image/home-3/t-3.png",
+        "name": "Jenny Wilson",
+        "position": "Graphic Designer",
+        "text": "Leading an organization is incredibly rewarding and equally humbling. Confidence and humility. Every success is built on lessons from mistakes made is incredibly rewarding and equally humbling. It requires healthy."
+    },
+    {
+        "id": 2,
+        "image": "./image/home-3/t-2.png",
+        "name": "Robert Fox",
+        "position": "Digital Marketer",
+        "text": "Leading an organization is incredibly rewarding and equally humbling. Confidence and humility. Every success is built on lessons from mistakes made is incredibly rewarding and equally humbling. It requires healthy."
+    },
+    {
+        "id": 3,
+        "image": "./image/home-3/t-3.png",
+        "name": "Mila McSabbu",
+        "position": "HR Manager",
+        "text": "Leading an organization is incredibly rewarding and equally humbling. Confidence and humility. Every success is built on lessons from mistakes made is incredibly rewarding and equally humbling. It requires healthy."
+    },
+    {
+        "id": 4,
+        "image": "./image/home-3/t-2.png",
+        "name": "Robert Fox",
+        "position": "Digital Marketer",
+        "text": "Leading an organization is incredibly rewarding and equally humbling. Confidence and humility. Every success is built on lessons from mistakes made is incredibly rewarding and equally humbling. It requires healthy."
+    }
+]

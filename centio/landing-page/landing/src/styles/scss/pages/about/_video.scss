@@ -1,0 +1,84 @@
+/*
+    Note: This section is similar to landing 1 about section. if you have used that section you can delete the duplicate codes poointed bellow.
+*/
+
+/* duplicated code starts*/
+@use "../../abstracts/mixins"as utils;
+@use "../../abstracts/colors"as color;
+/*
+.video-section-01 {
+    background: rgb(43, 89, 255, 0.02);
+    padding: 60px 0;
+
+    @media (min-width:768px) {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    @media (min-width:992px) {
+        padding-top: 170px;
+        padding-bottom: 130px;
+    }
+
+    .block-title {
+        p {
+            @media(min-width:992px) {
+                padding-right: 11%;
+            }
+
+            @media(min-width:1200px) {
+                padding-right: 11%;
+            }
+
+            @media(min-width:1400px) {
+                padding-right: 23%;
+            }
+        }
+
+        .btn {
+            margin-top: 40px;
+        }
+    }
+
+    .video-block {
+        position: relative;
+        border-radius: 10px;
+        .video-button-block {
+            @include utils.absolute(0, 0, 100%, 100%);
+            @include utils.flexAllCenter;
+            background: rgba(color.$stratos, .5);
+            flex-direction: column
+        }
+    }
+}
+*/
+.video-btn-1 {
+    @include utils.flexAllCenter;
+    @include utils.square(70px, 500px);
+    @media (min-width:576px) {
+        @include utils.square(90px, 500px);
+    }
+
+    i {
+        font-size: 18px;
+        transform: translateX(2px);
+    }
+}
+
+/*duplicated code ends*/
+
+.video-section-01--2 {
+    .video-block {
+        overflow: inherit;
+        .video-button-block {
+            background: rgba(color.$stratos, .1);
+        }
+        .dots{
+            position: absolute;
+            top: -6.5%;
+            right: -3.5%;
+            width: 32.2%;
+            z-index: -1;
+        }
+    }
+}

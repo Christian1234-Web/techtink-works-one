@@ -1,0 +1,14 @@
+[
+    {
+        "id":1,
+      "title": "Innovative Soluation ",
+      "iconImage": "./image/home-10/c-icon-1.svg",
+      "text": "Fully layered dolor sit amet, consectetur <br class='d-lg-block d-none'>adipisicing elit. Dolores officiis laboriosam."
+    },
+    {
+        "id":2,
+      "title": "Clear Navigation",
+      "iconImage": "./image/home-10/c-icon-2.svg",
+      "text": "Fully layered dolor sit amet, consectetur <br class='d-lg-block d-none'>adipisicing elit. Dolores officiis laboriosam."
+    }
+  ]

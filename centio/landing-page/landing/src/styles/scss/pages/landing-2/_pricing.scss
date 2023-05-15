@@ -1,0 +1,62 @@
+.pricing-section-01 {
+  padding: 56px 0;
+
+  @media (min-width:768px) {
+    padding: 76px 0;
+  }
+
+  @media (min-width:992px) {
+    padding: 95px 0;
+
+  }
+  @media (min-width:1200px) {
+    padding: 125px 0 125px;
+
+  }
+
+  &__title {
+    .subtitle {
+      margin-bottom: 20px;
+    }
+
+    .title {
+      margin-bottom: 30px;
+    }
+
+    margin-bottom: 45px;
+
+    @media (min-width:992px) {
+      margin-bottom: 67px;
+    }
+  }
+
+  &__button {
+    display: flex;
+    justify-content: center;
+
+    .btn-toggle__wrapper {
+      display: flex;
+      justify-content: center;
+      margin: 0 20px;
+      cursor: pointer;
+    }
+    &--text{
+      font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+    }
+  }
+  .pricing-sider{
+    @media (min-width:425px) {
+      width: 80%;
+      margin: auto;
+    }
+    @media (min-width:768px) {
+      width: 100%;
+      margin: inherit;
+    }
+    .slick-slide{
+      margin: 0 12px;
+    }
+  }
+}

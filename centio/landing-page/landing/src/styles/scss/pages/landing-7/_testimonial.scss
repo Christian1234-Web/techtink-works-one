@@ -1,0 +1,51 @@
+.testimonil-section-06 {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    position: relative;
+    &__circle-1{
+        position: absolute;
+        top: 5%;
+        left: 3%;
+        width: 10px;
+        height: 10px;
+        background: #FFC83E;
+        border-radius: 500px;
+    }
+    &__circle-2{
+        position: absolute;
+        top: 5%;
+        right: 3%;
+        width: 10px;
+        height: 10px;
+        background: #FD4C5C;
+        border-radius: 500px;
+    }
+    @media (min-width:768px) {
+        padding-top: 75px;
+        padding-bottom: 38px;
+      }
+    
+      @media (min-width:992px) {
+        padding-top: 95px;
+        padding-bottom: 50px;
+    
+      }
+      @media (min-width:1200px) {
+        padding-top: 125px;
+        padding-bottom: 65px;
+
+      }
+
+    &__title {
+        text-align: center;
+        margin-bottom: 30px;
+
+        @media (min-width:768px) {
+            margin-bottom: 60px;
+
+        }
+    }
+    .slick-slide {
+        margin: 0 12px;
+    }
+}

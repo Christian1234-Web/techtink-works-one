@@ -1,0 +1,191 @@
+.signup-section-01 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 0;
+    @media (min-width:768px) {
+        padding: 80px 0;
+    }
+    @media (min-width:992px) {
+        padding: 100px 0;
+    }
+    &__logo {
+        margin-bottom: 50px;
+        @media (min-width:992px) {
+            margin-bottom: 100px;
+        }
+    }
+}
+
+.signup-form-01 {
+    @media (min-width:420px) {
+        background: #FFFFFF;
+        box-shadow: 0px 4px 40px rgba(43, 89, 255, 0.08);
+        border-radius: 10px;
+        padding: 50px 25px;
+        
+    }
+    @media (min-width:576px) {
+        padding: 60px 45px;
+
+    }
+    @media (min-width:992px) {
+        padding: 80px 70px;
+
+    }
+    @media (min-width:1200px) {
+        padding: 100px 110px;
+
+    }
+
+    &__title {
+        margin-bottom: 30px;
+
+        @media (min-width:768px) {
+            margin-bottom: 40px;
+        }
+
+        @media (min-width:992px) {
+            margin-bottom: 60px;
+        }
+    }
+
+    .from {
+        &__input-group {
+            margin-bottom: 20px;
+            &--label {
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 1.3;
+                margin-bottom: 15px;
+                display: block;
+
+                @media (min-width:992px) {
+                    font-size: 20px;
+                }
+            }
+
+            &--input {
+                height: 50px;
+                width: 100%;
+                padding: 0 30px;
+                border: 0.25px solid rgb(43, 89, 255, 0.3);
+                border-radius: 10px;
+
+                &:focus-visible {
+                    outline: none;
+                }
+
+                &::placeholder {
+                    color: rgb(0, 11, 51, 0.5);
+                }
+
+                @media (min-width:480px) {
+                    height: 60px;
+                }
+            }
+
+        }
+
+        &__pass-box {
+            position: relative;
+
+            &--input {
+                padding-right: 60px;
+
+                &::placeholder {
+                    position: absolute;
+                    left: 30px;
+                    top: 60%;
+                    transform: translateY(-60%);
+                }
+            }
+
+            &--eye {
+                position: absolute;
+                right: 30px;
+                top: 50%;
+                transform: translateY(-50%);
+                cursor: pointer;
+            }
+        }
+
+        &__check {
+            &--title {
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 1.3;
+                margin-bottom: 11px;
+                display: block;
+
+                @media (min-width:420px) {
+                    font-size: 20px;
+                }
+            }
+
+            .form-check-input {
+                &:checked {
+                    background-color: #FD4C5C !important;
+                    border-color: #FD4C5C !important;
+                }
+
+                &:focus {
+                    box-shadow: none;
+                }
+            }
+
+            .form-check-label {
+                padding-left: 8px;
+                font-size: 16px;
+                line-height: 26px;
+                color: rgb(0, 11, 51, 0.6);
+            }
+        }
+
+        &__button-group {
+            &--one {
+                margin-top: 30px;
+
+                .btn {
+                    min-width: 215px;
+                }
+            }
+
+            &--two {
+                margin-top: 30px;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+
+                @media (min-width:420px) {
+                    flex-direction: row;
+                }
+
+                .account-btn {
+                    font-weight: 600;
+                    font-size: 18px;
+                    line-height: 1.3;
+                    @media (min-width:420px) {
+                        font-size: 20px;
+                    }
+                }
+
+                .createanaccout-btn {
+                    font-weight: 600;
+                    font-size: 18px;
+                    line-height: 1.3;
+                    text-decoration-line: underline;
+                    color: #FD4C5C;
+                    margin-top: 10px;
+
+                    @media (min-width:420px) {
+                        font-size: 20px;
+                        margin-top: 0px;
+                        margin-left: 10px;
+                    }
+                }
+            }
+        }
+    }
+
+}

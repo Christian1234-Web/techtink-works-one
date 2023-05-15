@@ -1,0 +1,47 @@
+/*
+  Home 1 : Content Section Two
+---------------------------------*/
+.content-image-group--l1_2 {
+    .content-image-group__image-1 {
+        position: relative;
+    }
+
+    .content-image-group__image-1 {
+        position: absolute;
+        left: 0;
+        bottom: 50%;
+        width: 40%;
+        transform: translateY(50%);
+
+        @include mobile {
+            left: -15%;
+        }
+
+        @include desktops {
+            left: -15%;
+        }
+
+        @include large-desktops {
+            left: -12%;
+        }
+    }
+
+    .content-image-group__image-2 {
+        position: absolute;
+        right: -6%;
+        top: -4%;
+        width: 35%;
+        @include mobile-lg {
+            right: -6%;
+            top: -6%;
+        }
+        @include tablet {
+            right: -7%;
+            top: -7%;
+        }
+        @include desktops {
+            top: -6%;
+            right: -4%;
+        }
+    }
+}

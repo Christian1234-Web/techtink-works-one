@@ -1,0 +1,27 @@
+.pricing-section-02{
+  background: rgba(43, 89, 255,0.02);
+  padding: 56px 0;
+  @media (min-width:768px) {
+    padding: 76px 0;
+  }
+  @media (min-width:992px) {
+    padding: 95px 0 105px;
+    
+  }
+  @media (min-width:1200px) {
+    padding: 125px 0;
+    
+  }
+  &__title{
+    .subtitle{
+      margin-bottom: 20px;
+    }
+    margin-bottom: 35px;
+    @media (min-width:768px) {
+      margin-bottom: 50px;
+    }
+    @media (min-width:1200px) {
+      margin-bottom: 80px;
+    }
+  }
+}

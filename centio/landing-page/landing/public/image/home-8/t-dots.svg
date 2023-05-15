@@ -1,0 +1,90 @@
+<svg width="130" height="224" viewBox="0 0 130 224" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="-94" y="0" width="224" height="224">
+<rect x="-94" width="224" height="224" fill="url(#paint0_linear)"/>
+</mask>
+<g mask="url(#mask0)">
+<circle cx="8" cy="22" r="3" fill="#EB5757"/>
+<circle cx="26" cy="22" r="3" fill="#EB5757"/>
+<circle cx="44" cy="22" r="3" fill="#EB5757"/>
+<circle cx="62" cy="22" r="3" fill="#EB5757"/>
+<circle cx="80" cy="22" r="3" fill="#EB5757"/>
+<circle cx="98" cy="22" r="3" fill="#EB5757"/>
+<circle cx="116" cy="22" r="3" fill="#EB5757"/>
+<circle cx="8" cy="40" r="3" fill="#EB5757"/>
+<circle cx="26" cy="40" r="3" fill="#EB5757"/>
+<circle cx="44" cy="40" r="3" fill="#EB5757"/>
+<circle cx="62" cy="40" r="3" fill="#EB5757"/>
+<circle cx="80" cy="40" r="3" fill="#EB5757"/>
+<circle cx="98" cy="40" r="3" fill="#EB5757"/>
+<circle cx="116" cy="40" r="3" fill="#EB5757"/>
+<circle cx="8" cy="58" r="3" fill="#EB5757"/>
+<circle cx="26" cy="58" r="3" fill="#EB5757"/>
+<circle cx="44" cy="58" r="3" fill="#EB5757"/>
+<circle cx="62" cy="58" r="3" fill="#EB5757"/>
+<circle cx="80" cy="58" r="3" fill="#EB5757"/>
+<circle cx="98" cy="58" r="3" fill="#EB5757"/>
+<circle cx="116" cy="58" r="3" fill="#EB5757"/>
+<circle cx="8" cy="76" r="3" fill="#EB5757"/>
+<circle cx="26" cy="76" r="3" fill="#EB5757"/>
+<circle cx="44" cy="76" r="3" fill="#EB5757"/>
+<circle cx="62" cy="76" r="3" fill="#EB5757"/>
+<circle cx="80" cy="76" r="3" fill="#EB5757"/>
+<circle cx="98" cy="76" r="3" fill="#EB5757"/>
+<circle cx="116" cy="76" r="3" fill="#EB5757"/>
+<circle cx="8" cy="94" r="3" fill="#EB5757"/>
+<circle cx="26" cy="94" r="3" fill="#EB5757"/>
+<circle cx="44" cy="94" r="3" fill="#EB5757"/>
+<circle cx="62" cy="94" r="3" fill="#EB5757"/>
+<circle cx="80" cy="94" r="3" fill="#EB5757"/>
+<circle cx="98" cy="94" r="3" fill="#EB5757"/>
+<circle cx="116" cy="94" r="3" fill="#EB5757"/>
+<circle cx="8" cy="112" r="3" fill="#EB5757"/>
+<circle cx="26" cy="112" r="3" fill="#EB5757"/>
+<circle cx="44" cy="112" r="3" fill="#EB5757"/>
+<circle cx="62" cy="112" r="3" fill="#EB5757"/>
+<circle cx="80" cy="112" r="3" fill="#EB5757"/>
+<circle cx="98" cy="112" r="3" fill="#EB5757"/>
+<circle cx="116" cy="112" r="3" fill="#EB5757"/>
+<circle cx="8" cy="130" r="3" fill="#EB5757"/>
+<circle cx="26" cy="130" r="3" fill="#EB5757"/>
+<circle cx="44" cy="130" r="3" fill="#EB5757"/>
+<circle cx="62" cy="130" r="3" fill="#EB5757"/>
+<circle cx="80" cy="130" r="3" fill="#EB5757"/>
+<circle cx="98" cy="130" r="3" fill="#EB5757"/>
+<circle cx="116" cy="130" r="3" fill="#EB5757"/>
+<circle cx="8" cy="148" r="3" fill="#EB5757"/>
+<circle cx="26" cy="148" r="3" fill="#EB5757"/>
+<circle cx="44" cy="148" r="3" fill="#EB5757"/>
+<circle cx="62" cy="148" r="3" fill="#EB5757"/>
+<circle cx="80" cy="148" r="3" fill="#EB5757"/>
+<circle cx="98" cy="148" r="3" fill="#EB5757"/>
+<circle cx="116" cy="148" r="3" fill="#EB5757"/>
+<circle cx="8" cy="166" r="3" fill="#EB5757"/>
+<circle cx="26" cy="166" r="3" fill="#EB5757"/>
+<circle cx="44" cy="166" r="3" fill="#EB5757"/>
+<circle cx="62" cy="166" r="3" fill="#EB5757"/>
+<circle cx="80" cy="166" r="3" fill="#EB5757"/>
+<circle cx="98" cy="166" r="3" fill="#EB5757"/>
+<circle cx="116" cy="166" r="3" fill="#EB5757"/>
+<circle cx="8" cy="184" r="3" fill="#EB5757"/>
+<circle cx="26" cy="184" r="3" fill="#EB5757"/>
+<circle cx="44" cy="184" r="3" fill="#EB5757"/>
+<circle cx="62" cy="184" r="3" fill="#EB5757"/>
+<circle cx="80" cy="184" r="3" fill="#EB5757"/>
+<circle cx="98" cy="184" r="3" fill="#EB5757"/>
+<circle cx="116" cy="184" r="3" fill="#EB5757"/>
+<circle cx="8" cy="202" r="3" fill="#EB5757"/>
+<circle cx="26" cy="202" r="3" fill="#EB5757"/>
+<circle cx="44" cy="202" r="3" fill="#EB5757"/>
+<circle cx="62" cy="202" r="3" fill="#EB5757"/>
+<circle cx="80" cy="202" r="3" fill="#EB5757"/>
+<circle cx="98" cy="202" r="3" fill="#EB5757"/>
+<circle cx="116" cy="202" r="3" fill="#EB5757"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear" x1="-94" y1="112" x2="130" y2="112" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FD4C5C"/>
+<stop offset="1" stop-color="#FD4C5C" stop-opacity="0.06"/>
+</linearGradient>
+</defs>
+</svg>

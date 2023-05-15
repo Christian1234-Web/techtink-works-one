@@ -1,0 +1,20 @@
+[
+    {"id":"f0401",
+      "title": "Innovative Soluation ",
+      "iconWrapperClass": "bg-secondary",
+      "iconImage": "./image/home-4/f-widget-icon-1.svg",
+      "text": "Fully layered dolor sit amet, consectetur adipisicing elit. Facere dolores laboriosam."
+    },
+    {"id":"f0402",
+      "title": "Clear Navigation",
+      "iconWrapperClass": "bg-primary",
+      "iconImage": "./image/home-4/f-widget-icon-2.svg",
+      "text": "Fully layered dolor sit amet, consectetur adipisicing elit. Facere dolores laboriosam."
+    },
+    {"id":"f0403",
+      "title": "Over 800 Clients",
+      "iconWrapperClass": "bg-yellow",
+      "iconImage": "./image/home-4/f-widget-icon-3.svg",
+      "text": "Fully layered dolor sit amet, consectetur adipisicing elit. Facere dolores laboriosam."
+    }
+  ]

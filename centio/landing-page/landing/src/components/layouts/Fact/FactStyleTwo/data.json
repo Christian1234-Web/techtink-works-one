@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "iconImage": "./image/home-2/icon-1.png",
+        "title": "<span class='counter'>28</span>K",
+        "text": "Users"
+    },
+    {
+        "id":2,
+        "iconImage": "./image/home-2/icon-2.png",
+        "title": "<span class='counter'>13</span>K",
+        "text": "Download"
+    },
+    {
+        "id":3,
+        "iconImage": "./image/home-2/icon-3.png",
+        "title": "<span class='counter'>68</span>K",
+        "text": "Likes"
+    },
+    {
+        "id":4,
+        "iconImage": "./image/home-2/icon-4.png",
+        "title": "<span class='counter'>10</span>K",
+        "text": "5 Star Rating"
+    }
+]

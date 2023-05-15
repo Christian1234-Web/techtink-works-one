@@ -1,0 +1,60 @@
+.cta-section-10 {
+    padding: 60px 0;
+    z-index: 1;
+    background: rgb(0, 28, 128,0.95);
+    position: relative;
+    overflow: hidden;
+    @media (min-width: 768px) {
+        padding: 80px 0;
+    }
+
+    @media (min-width: 992px) {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    &__button-group {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+        a {
+            display: block;
+            margin-right: 0px;
+            margin-bottom: 20px;
+            @media (min-width:420px) {
+                margin-right: 5px;
+                margin-bottom: 0px;
+                
+            }
+            @media (min-width:445px) {
+                margin-right: 24px;
+                margin-bottom: 0px;
+                
+            }
+            &:last-child {
+                margin-right: 0;
+                margin-bottom: 0px;
+            }
+
+        }
+    }
+    &__shape-1{
+        position: absolute;
+        top: 8%;
+        left: 8.5%;
+        width: 7%;
+    }
+    &__shape-2{
+        position: absolute;
+        top: 41%;
+        right: -3%;
+        width: 6.8%;
+    }
+    &__shape-3{
+        position: absolute;
+        bottom: -22%;
+        left: 33.5%;
+        width: 9.3%;
+    }
+}

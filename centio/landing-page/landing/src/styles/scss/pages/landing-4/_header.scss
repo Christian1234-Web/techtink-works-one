@@ -1,0 +1,33 @@
+
+/* Landing One Header Button */
+@use "../../theme/theme-4" as *;
+.site-header__btns--04{
+    .btn{
+        height: 45px;
+    }
+    .btn-1{
+        color:$headingDark;
+        @media (min-width:992px) {
+            margin-right: 20px;
+            min-width:80px;
+            color: $headingLight;
+        }
+    }
+    .btn-2{
+        min-width:120px;
+        color:$headingLight;
+        background: $primary;
+        border-radius: 500px !important;
+        @media (min-width:992px) {
+            background: rgba(255, 255, 255, 0.2);
+            min-width:120px;
+        }
+    }
+    @media (max-width:992px) {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+}
+
+

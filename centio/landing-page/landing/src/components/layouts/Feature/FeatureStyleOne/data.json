@@ -1,0 +1,20 @@
+[
+    {
+        "id": "f011",
+        "title": "Innovative Soluation",
+        "icon": "./image/home-1/feature-icon-01.svg",
+        "text": "Fully layered dolor sit amet, consectetur  adipisicing elit. Facere, nobis, id expedita  dolores officiis laboriosam."
+    },
+    {
+        "id": "f012",
+        "title": "Clear Navigation",
+        "icon": "./image/home-1/feature-icon-02.svg",
+        "text": "Fully layered dolor sit amet, consectetur adipisicing elit. Facere, nobis, id expedita dolores officiis laboriosam."
+    },
+    {
+        "id": "f013",
+        "title": "Over 800 Clients",
+        "icon": "./image/home-1/feature-icon-03.svg",
+        "text": "Fully layered dolor sit amet, consectetur adipisicing elit. Facere, nobis, id expedita dolores officiis laboriosam."
+    }
+]

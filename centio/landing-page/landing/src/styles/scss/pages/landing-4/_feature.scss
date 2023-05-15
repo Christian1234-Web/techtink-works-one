@@ -1,0 +1,88 @@
+.feature-section-04 {
+    padding: 60px 0 55px;
+    @media (min-width:768px) {
+        padding: 80px 0 72px;
+        
+    }
+    @media (min-width:992px) {
+        padding-top: 100px;
+        padding-bottom: 0;
+    }
+    @media (min-width:1200px) {
+        padding-top: 125px;
+        padding-bottom: 0;
+    }
+
+    &__image-group {
+        position: relative;
+        overflow: hidden;
+        @media (min-width:1200px) {
+            padding-top: 55px;
+        }
+
+        img {
+            max-width: 60%;
+            @media (min-width:992px) {
+                max-width: 77%;
+                margin-bottom: -40px;
+            }
+            @media (min-width:1200px) {
+                max-width: 100%;
+                margin-bottom: -108px;
+            }
+        }
+
+        &--shape {
+            position: absolute;
+            bottom: 16%;
+            width: 35.6%;
+            right: 10%;
+            z-index: -1;
+            @media (min-width:992px) {
+                right: 0%;
+            }
+            svg {
+                width: 100%;
+            }
+        }
+    }
+
+    &__widget {
+        margin-top: 36px;
+
+        @media (min-width:768px) {
+            margin-top: 46px;
+        }
+        .widget-content {
+            .widget-icon {
+                margin-right: 23px;
+                min-height: 50px;
+                max-height: 50px;
+                min-width: 50px;
+                max-width: 50px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 500px;
+                @media (min-width:576px) {
+                    min-height: 60px;
+                    max-height: 60px;
+                    min-width: 60px;
+                    max-width: 60px;
+                }
+                img{
+                    width: 20px;
+                    height: 20px;
+                }
+            }
+
+            .widget-text {
+                font-size: 16px;
+                line-height: 26px;
+                color: #000B33;
+                opacity: 0.8;
+            }
+        }
+
+    }
+}

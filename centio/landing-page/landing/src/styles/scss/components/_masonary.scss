@@ -1,0 +1,141 @@
+.grid--l6 {
+    margin: 0 auto;
+    &__single {
+        width: 100%;
+        display: flex;
+        @include tablet {
+            width: calc(50% - 25px);
+        }
+        @include desktops {
+            width: calc(33.3333% - 25px);
+        }
+        &--big-img {
+            @include desktops {
+                width: calc(66.6667% - 25px);
+                margin-right: 12.5px;
+            }
+        }
+        &--half-img {
+            width: 47%;
+        }
+        a {
+            width: 100%;
+        }
+    }
+}
+.grid--half {
+    margin: 0 auto;
+    &__single {
+        width: 100%;
+        display: flex;
+        border-radius: 25px;
+        @include tablet {
+            width: calc(50% - 25px);
+            margin: 0 12.5px;
+        }
+        a {
+            width: 100%;
+        }
+    }
+}
+.grid--half__single-no-gap {
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    border-radius: 25px;
+    @include tablet {
+        width: 50%;
+    }
+    a {
+        width: 100%;
+    }
+}
+.grid--3__single {
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    border-radius: 25px;
+    @include tablet{
+        width: calc(50% - 25px);
+        margin: 0 12.5px;
+    }
+    @include desktops {
+        width: calc(33.3333% - 25px);
+        margin: 0 12.5px;
+    }
+    a {
+        width: 100%;
+    }
+}
+.grid--4__single {
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    border-radius: 25px;
+    @include tablet {
+        width: calc(25% - 25px);
+        margin: 0 12.5px;
+    }
+    a {
+        width: 100%;
+    }
+    .portfolio__hover{
+        &__heading{
+            font-size: 16px !important;
+        }
+        &__text{
+            font-size: 13px !important;
+        }
+        &__link{
+            display: none;
+        }
+    }
+}
+.grid--3__single--no-gap {
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    border-radius: 25px;
+    @include tablet {
+        width: calc(33.3333%);
+    }
+    a {
+        width: 100%;
+    }
+}
+.grid--4__single--no-gap {
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    border-radius: 25px;
+    @include tablet {
+        width: 25%;
+    }
+    a {
+        width: 100%;
+    }
+    .portfolio__hover{
+        &__heading{
+            font-size: 16px !important;
+        }
+        &__text{
+            font-size: 13px !important;
+        }
+        &__link{
+            display: none;
+        }
+    }
+}
+
+.no-gap {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.portfolio-grid-1 {
+    &__full {
+        .portfolio__single {
+            min-height: 728px;
+        }
+    }
+}

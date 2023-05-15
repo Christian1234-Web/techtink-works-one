@@ -1,0 +1,17 @@
+/* Background css Start */
+@forward "background";
+/* Common Animations  css Start */
+@forward "animations";
+/* Typography css Start */
+@forward "typography";
+
+.transform-origin-top-left{
+    transform-origin:top left;
+}
+.transform-origin-bottom-20p{
+    transform-origin:100% -20%;
+}
+
+.pointer-none{
+    pointer-events: none;
+}

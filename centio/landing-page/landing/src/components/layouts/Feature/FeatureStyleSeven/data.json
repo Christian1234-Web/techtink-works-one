@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Email Deliverability",
+    "iconImage": "./image/home-10/f-icon-1.svg",
+    "text": "With lots of unique blocks you can easily create a page without coding with Custer easily."
+  },
+  {
+    "id": 2,
+    "title": "Unlimited Email Sends",
+    "iconImage": "./image/home-10/f-icon-2.svg",
+    "text": "With lots of unique blocks you can easily create a page without coding with Custer easily."
+  },
+  {
+    "id": 3,
+    "title": "Never Get Stuck",
+    "iconImage": "./image/home-10/f-icon-3.svg",
+    "text": "With lots of unique blocks you can easily create a page without coding with Custer easily."
+  },
+  {
+    "id": 4,
+    "title": "Media Messages",
+    "iconImage": "./image/home-10/f-icon-4.svg",
+    "text": "With lots of unique blocks you can easily create a page without coding with Custer easily."
+  },
+  {
+    "id": 5,
+    "title": "Dedicated Server",
+    "iconImage": "./image/home-10/f-icon-5.svg",
+    "text": "With lots of unique blocks you can easily create a page without coding with Custer easily."
+  },
+  {
+    "id": 6,
+    "title": "Responsive App",
+    "iconImage": "./image/home-10/f-icon-6.svg",
+    "text": "With lots of unique blocks you can easily create a page without coding with Custer easily."
+  }
+]

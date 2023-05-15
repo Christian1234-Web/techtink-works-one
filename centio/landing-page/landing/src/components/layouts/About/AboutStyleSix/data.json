@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "title": "Advanced Reporting",
+        "icon": "./image/home-7/c-icon-1.svg",
+        "text": "With lots of unique blocks you can easily create a page without coding with Custer"
+    },
+    {
+        "id": 2,
+        "title": "Email Services",
+        "icon": "./image/home-7/c-icon-2.svg",
+        "text": "With lots of unique blocks you can easily create a page without coding with Custer"
+    },
+    {
+        "id": 3,
+        "title": "Sales & CRM",
+        "icon": "./image/home-7/c-icon-3.svg",
+        "text": "With lots of unique blocks you can easily create a page without coding with Custer"
+    },
+    {
+        "id": 4,
+        "title": "SEO optimization",
+        "icon": "./image/home-7/c-icon-4.svg",
+        "text": "With lots of unique blocks you can easily create a page without coding with Custer"
+    }
+]

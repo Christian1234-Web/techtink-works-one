@@ -1,0 +1,77 @@
+@use "../../abstracts/mixins" as utils;
+@use "../../theme/theme-4" as color;
+.testimonil-section-04 {
+    padding: 55px 0 20px;
+    @media (min-width:768px) {
+        padding: 80px 0 30px;
+    }
+    @media (min-width:768px) {
+        padding: 95px 0 40px;
+    }
+    @media (min-width:1200px) {
+        padding: 125px 0 65px;
+    }
+    &__title {
+        text-align: center;
+        margin-bottom: 45px;
+
+        @media (min-width:992px) {
+            margin-bottom: 80px;
+
+        }
+    }
+    &__slider{
+        position: relative;
+        .slick-slide {
+            margin: 0 12px;
+        }
+        .slick-list {
+            margin: 0 -12px;
+        }
+        .testimonial-slider--04{
+
+            &__control-buttons{
+                display: none;
+                @media (min-width:575px) {
+                    display: block;
+                }
+                .button{
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                border: 0;
+                background: #FD4C5C;
+                border-radius: 5px;
+                width: 40px;
+                height: 40px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                transition: .3s;
+                svg{
+                    fill: white;
+                }
+                &:hover{
+                    background: #FFFFFF;
+                    box-shadow: 0px 4px 40px rgb(43 89 255 / 18%);
+                    svg{
+                        fill: #FD4C5C;
+                    }
+                }
+                }
+                .button--prev{
+                    left: -20px;
+                    cursor: pointer;
+                }
+                .button--next{
+                    right: -20px;
+                    cursor: pointer;           
+                }
+            }
+        }
+        .card-testimonil-03{
+            box-shadow: none;
+            border: 1px solid #E9E5EF;
+        }
+    }
+}

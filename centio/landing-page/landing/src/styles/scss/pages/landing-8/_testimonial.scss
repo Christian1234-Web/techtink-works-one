@@ -1,0 +1,153 @@
+.testimonil-section-07 {
+    padding: 55px 0 30px;
+    position: relative;
+    @media (min-width:768px) {
+        padding: 75px 0 40px;
+    }
+
+    @media (min-width:992px) {
+        padding: 95px 0 50px;
+    }
+    @media (min-width:1200px) {
+        padding: 125px 0 65px;
+    }
+    &__shape{
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 12.9%;    
+    }
+    &__dots{
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+        width: 7%;
+    }
+    .content-title {
+        margin-bottom: 35px;
+
+        @media (min-width:992px) {
+            margin-bottom: 60px;
+        }
+    }
+    &__content {
+        position: relative;
+        text-align: center;
+        background: #FFFFFF;
+        border-radius: 10px;
+        padding: 30px;
+        @media (min-width:480px) {
+            padding: 40px 60px;
+        }
+        @media (min-width:1200px) {
+            padding: 60px 83px;
+            
+        }
+        .text {
+            font-size: 18px;
+            line-height: 26px;
+            padding-bottom: 42px;
+        }
+        .client-info {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+            @media (min-width:374px) {
+                flex-direction: row;
+            }
+            &--img {
+                img {
+                    min-width: 70px;
+                    min-height: 70px;
+                    max-width: 70px;
+                    max-height: 70px;
+                    object-fit: cover;
+                    margin-bottom: 24.29px;
+                    border-radius: 500px;
+                    @media (min-width:374px) {
+                        margin-right: 24.29px;
+                        margin-bottom: 0px;
+                        
+                    }
+                }
+            }
+
+            &--texts {
+                text-align: start;
+                .name {
+                    font-weight: bold;
+                    font-size: 20px;
+                    line-height: 26px;
+                    margin-bottom: 4px;
+                }
+
+                .profession {
+                    font-size: 16px;
+                    line-height: 26px;
+                }
+            }
+        }
+        .quote{
+            position: absolute;
+            right: 20px;
+            bottom: 40px;
+        }
+    }
+    &__slider{
+        position: relative;
+        .testimonial-slider--06{
+            .slick-list{
+                box-shadow: 0px 4px 40px rgba(43, 89, 255, 0.08);
+            }
+            &__control-buttons{
+                display: none;
+                @media (min-width:768px) {
+                    display: block;
+                }
+                .button{
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                border: 0;
+                background: #FD4C5C;
+                border-radius: 5px;
+                width: 40px;
+                height: 40px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                transition: .3s;
+                svg{
+                    fill: white;
+                }
+                &:hover{
+                    background: #FFFFFF;
+                    box-shadow: 0px 4px 40px rgb(43 89 255 / 18%);
+                    svg{
+                        fill: #FD4C5C;
+                    }
+                }
+                }
+                .button--prev{
+                    transform: rotate(180deg);
+                    left: -70px;
+                    cursor: pointer;
+                    transform: translateY(-50%)  scaleX(-1);
+                    @media (min-width:992px) {
+                        left: -109px;
+                    }
+                }
+                .button--next{
+                    transform: translateY(-50%);
+                    right: -70px;
+                    @media (min-width:992px) {
+                        right: -109px;
+                    }
+                    cursor: pointer;           
+                }
+            }
+        }
+    }
+}

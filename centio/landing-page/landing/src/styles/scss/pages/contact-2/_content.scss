@@ -1,0 +1,101 @@
+.contactform-section-02{
+    background: rgb(55, 124, 253,0.02);
+    padding: 60px 0;
+    @media (min-width:768px) {
+        padding: 80px 0;
+    }
+    @media (min-width:992px) {
+        padding: 130px 0;
+    }
+    &__map-form{
+        margin-top: 36px;
+        @media (min-width:768px) {
+          margin-top: 76px;
+        }
+    }
+    &__map{
+        position: relative;
+        img{
+            border-radius: 10px;
+        }
+        &--icon{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+    }
+}
+
+/* Contact card css start */
+.contact-card{
+    margin-bottom: 24px;
+        text-align: center;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 40px rgba(43, 89, 255, 0.08);
+        border-radius: 10px;
+        padding: 50px 0;
+    &__iocn{
+        width: 60px;
+        height: 60px;
+        background: linear-gradient(90.28deg, #001C80 0.26%, #153ABF 30.33%, #2B59FF 99.79%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 500px;
+        margin: auto;
+        i{
+            color: white;
+        }
+    }
+    &__body{
+        margin-top: 20px;
+        p{
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        color: #000B33;
+        }
+    }
+}
+
+/* contact form css */
+.contact-form-02{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 40px rgba(43, 89, 255, 0.08);
+    border-radius: 10px;
+    padding: 20px;
+    @media (min-width:576px) {
+        padding: 34px 40px;
+        
+    } 
+    &--inpute-group{
+        .form-control{
+            border: 0;
+            background: rgb(55, 124, 253,0.05);
+            border-radius: 5px;
+            padding: 30px;
+            margin-bottom: 20px;
+            color: rgb(0, 11, 51);
+            height: 55px;
+            &::placeholder{
+                color: rgb(0, 11, 51,0.8);
+            }
+        }
+    }
+    textarea{
+        padding: 30px;
+        border: 0;
+        background: rgb(55, 124, 253,0.05);
+        border-radius: 5px;
+        height: 150px;
+        width: 100%;
+        &:focus{
+            outline: none;
+        }
+    }
+    .btn{
+        margin-top: 40px;
+        min-width: 150px;
+    }
+}

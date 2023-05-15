@@ -1,0 +1,38 @@
+[
+  {
+    "id": "sl081",
+    "title": "Cardiology",
+    "icon": "./image/home-8/s-icon-1.svg",
+    "text": "With lots of unique blocks you can easily create a page without coding with Custer easily."
+  },
+  {
+    "id": "sl082",
+    "title": "Neurology",
+    "icon": "./image/home-8/s-icon-2.svg",
+    "text": "With lots of unique blocks you can easily create a page without coding with Custer easily."
+  },
+  {
+    "id": "sl083",
+    "title": "Dental service",
+    "icon": "./image/home-8/s-icon-3.svg",
+    "text": "With lots of unique blocks you can easily create a page without coding with Custer easily."
+  },
+  {
+    "id": "sl084",
+    "title": "Eye care service",
+    "icon": "./image/home-8/s-icon-4.svg",
+    "text": "With lots of unique blocks you can easily create a page without coding with Custer easily."
+  },
+  {
+    "id": "sl085",
+    "title": "General checkup",
+    "icon": "./image/home-8/s-icon-5.svg",
+    "text": "With lots of unique blocks you can easily create a page without coding with Custer easily."
+  },
+  {
+    "id": "sl086",
+    "title": "Medicine service",
+    "icon": "./image/home-8/s-icon-6.svg",
+    "text": "With lots of unique blocks you can easily create a page without coding with Custer easily."
+  }
+]

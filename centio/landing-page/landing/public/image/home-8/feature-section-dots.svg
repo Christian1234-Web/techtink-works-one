@@ -1,0 +1,68 @@
+<svg width="95" height="224" viewBox="0 0 95 224" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="-129" y="0" width="224" height="224">
+<rect x="-129" width="224" height="224" fill="url(#paint0_linear)"/>
+</mask>
+<g mask="url(#mask0)">
+<circle cx="9" cy="22" r="3" fill="#EB5757"/>
+<circle cx="27" cy="22" r="3" fill="#EB5757"/>
+<circle cx="45" cy="22" r="3" fill="#EB5757"/>
+<circle cx="63" cy="22" r="3" fill="#EB5757"/>
+<circle cx="81" cy="22" r="3" fill="#EB5757"/>
+<circle cx="9" cy="40" r="3" fill="#EB5757"/>
+<circle cx="27" cy="40" r="3" fill="#EB5757"/>
+<circle cx="45" cy="40" r="3" fill="#EB5757"/>
+<circle cx="63" cy="40" r="3" fill="#EB5757"/>
+<circle cx="81" cy="40" r="3" fill="#EB5757"/>
+<circle cx="9" cy="58" r="3" fill="#EB5757"/>
+<circle cx="27" cy="58" r="3" fill="#EB5757"/>
+<circle cx="45" cy="58" r="3" fill="#EB5757"/>
+<circle cx="63" cy="58" r="3" fill="#EB5757"/>
+<circle cx="81" cy="58" r="3" fill="#EB5757"/>
+<circle cx="9" cy="76" r="3" fill="#EB5757"/>
+<circle cx="27" cy="76" r="3" fill="#EB5757"/>
+<circle cx="45" cy="76" r="3" fill="#EB5757"/>
+<circle cx="63" cy="76" r="3" fill="#EB5757"/>
+<circle cx="81" cy="76" r="3" fill="#EB5757"/>
+<circle cx="9" cy="94" r="3" fill="#EB5757"/>
+<circle cx="27" cy="94" r="3" fill="#EB5757"/>
+<circle cx="45" cy="94" r="3" fill="#EB5757"/>
+<circle cx="63" cy="94" r="3" fill="#EB5757"/>
+<circle cx="81" cy="94" r="3" fill="#EB5757"/>
+<circle cx="9" cy="112" r="3" fill="#EB5757"/>
+<circle cx="27" cy="112" r="3" fill="#EB5757"/>
+<circle cx="45" cy="112" r="3" fill="#EB5757"/>
+<circle cx="63" cy="112" r="3" fill="#EB5757"/>
+<circle cx="81" cy="112" r="3" fill="#EB5757"/>
+<circle cx="9" cy="130" r="3" fill="#EB5757"/>
+<circle cx="27" cy="130" r="3" fill="#EB5757"/>
+<circle cx="45" cy="130" r="3" fill="#EB5757"/>
+<circle cx="63" cy="130" r="3" fill="#EB5757"/>
+<circle cx="81" cy="130" r="3" fill="#EB5757"/>
+<circle cx="9" cy="148" r="3" fill="#EB5757"/>
+<circle cx="27" cy="148" r="3" fill="#EB5757"/>
+<circle cx="45" cy="148" r="3" fill="#EB5757"/>
+<circle cx="63" cy="148" r="3" fill="#EB5757"/>
+<circle cx="81" cy="148" r="3" fill="#EB5757"/>
+<circle cx="9" cy="166" r="3" fill="#EB5757"/>
+<circle cx="27" cy="166" r="3" fill="#EB5757"/>
+<circle cx="45" cy="166" r="3" fill="#EB5757"/>
+<circle cx="63" cy="166" r="3" fill="#EB5757"/>
+<circle cx="81" cy="166" r="3" fill="#EB5757"/>
+<circle cx="9" cy="184" r="3" fill="#EB5757"/>
+<circle cx="27" cy="184" r="3" fill="#EB5757"/>
+<circle cx="45" cy="184" r="3" fill="#EB5757"/>
+<circle cx="63" cy="184" r="3" fill="#EB5757"/>
+<circle cx="81" cy="184" r="3" fill="#EB5757"/>
+<circle cx="9" cy="202" r="3" fill="#EB5757"/>
+<circle cx="27" cy="202" r="3" fill="#EB5757"/>
+<circle cx="45" cy="202" r="3" fill="#EB5757"/>
+<circle cx="63" cy="202" r="3" fill="#EB5757"/>
+<circle cx="81" cy="202" r="3" fill="#EB5757"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear" x1="-129" y1="112" x2="95" y2="112" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FD4C5C"/>
+<stop offset="1" stop-color="#FD4C5C" stop-opacity="0.06"/>
+</linearGradient>
+</defs>
+</svg>

@@ -1,0 +1,26 @@
+/* Landing One Header Button */
+@use "../../theme/theme-1" as *;
+
+
+.site-header__btns--01{
+    margin-left: auto;
+    .btn{
+        height: 45px;
+    }
+    .btn-1{
+        min-width:130px;
+        color:$headingDark;
+        @media (min-width:992px) {
+            color: $headingLight;
+        }
+    }
+    .btn-2{
+        min-width:120px;
+    }
+    @media (max-width:992px) {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+}
+

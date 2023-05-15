@@ -1,0 +1,31 @@
+.testimonil-section-03 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    @media (min-width:768px) {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    @media (min-width:992px) {
+        padding-top: 106px;
+        padding-bottom: 130px;
+    }
+
+    &__title {
+        text-align: center;
+        margin-bottom: 30px;
+
+        @media (min-width:768px) {
+            margin-bottom: 60px;
+
+        }
+    }
+    .testimonial-slider--03{
+        .slick-slide {
+            margin: 0 12px;
+        }
+        /* the parent */
+        .slick-list {
+            margin: 0 -12px;
+        }
+    }
+}

@@ -1,0 +1,29 @@
+@use "../../abstracts/mixins" as utils ;
+@use "../../abstracts/colors" as color ;
+// .video-section__content{
+//     .title{
+
+//     }
+//     p{
+
+//     }
+// }
+
+.video-block{
+    position: relative;
+    overflow: hidden;
+    .video-button-block{
+        @include utils.absolute(0,0,100%,100%);
+        @include utils.flexAllCenter;
+        background:  rgba(color.$stratos,.5);
+
+    }
+}
+
+.video-btn-1{
+    @include utils.flexAllCenter;
+    @include utils.square(90px,500px);
+    i{
+        font-size: 18px;
+    }
+}

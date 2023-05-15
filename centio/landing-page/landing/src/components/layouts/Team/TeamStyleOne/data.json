@@ -1,0 +1,26 @@
+[
+    {
+      "id": 1,
+      "img": "./image/home-1/team-1.png",
+      "title": "Cameron Williamson",
+      "text": "Co -Founder"
+    },
+    {
+      "id": 2,
+      "img": "./image/home-1/team-2.png",
+      "title": "Brooklyn Simmons",
+      "text": "Project Manager"
+    },
+    {
+      "id": 3,
+      "img": "./image/home-1/team-3.png",
+      "title": "Robert Fox",
+      "text": "Web Designer"
+    },
+    {
+      "id": 4,
+      "img": "./image/home-1/team-4.png",
+      "title": "Esther Howard",
+      "text": "HR Manager"
+    }
+  ]

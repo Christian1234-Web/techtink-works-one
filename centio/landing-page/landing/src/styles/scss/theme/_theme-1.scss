@@ -1,0 +1,9 @@
+@use "../abstracts/colors" as *;
+
+$primary: $carnation;
+$secondary : $blue-ribbon;
+$tertiary : $bright-sun;
+$headingDark: $stratos;
+$headingLight: $white;
+$textDark:  rgba($stratos,.8);
+$textLight: rgba($white,.8);

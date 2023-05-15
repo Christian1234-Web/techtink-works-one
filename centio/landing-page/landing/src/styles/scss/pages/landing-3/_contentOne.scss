@@ -1,0 +1,106 @@
+@use "../../theme/theme-2"as *;
+@keyframes spin-gradient {
+    from {
+        transform:translate(-50%, -50%) rotate(0deg);
+    }
+    to {
+        transform:translate(-50%, -50%) rotate(360deg);
+    }
+  }
+.content-section-05 {
+    padding: 60px 0;
+    @media (min-width:768px) {
+        padding: 80px 0;
+    }
+    @media (min-width:992px) {
+        padding: 130px 0;
+    }
+    &__image-group {
+        max-width: 60%;
+        margin: auto;
+        text-align: center;
+        position: relative;
+        img{
+            max-width: unset;
+            width: 100%;
+        }
+
+        &::before {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            content: "";
+            min-width: 151.32%;
+            min-height: 76%;
+            border-radius: 500px;
+            transform: translate(-50%, -50%) rotate(0deg);
+            background: linear-gradient(90deg, #7e25ff 0%, #FD4C5C 100%);
+            z-index: -1;
+        }
+    }
+
+    &__texts {
+        // @media (min-width:575px) {
+        //     padding: 0 5%;
+        // }
+        @media (min-width:768px) {
+            padding: 0 5%;
+        }
+        @media (min-width:992px) {
+            padding: 0;
+        }
+        .content-title {
+            margin-bottom: 25px;
+            @media (min-width:575px) {
+                margin-bottom: 35px;
+            }
+            @media (min-width:768px) {
+                margin-bottom: 35px;
+            }
+            @media (min-width:992px) {
+                margin-bottom: 58px;
+            }
+            h2 {
+                margin-bottom: 16px;
+            }
+        }
+
+        &--widgets {
+            .singel-widget {
+                margin-bottom: 24px;
+                @media (min-width:575px) {
+                    margin-bottom: 34px;
+                }
+                &:last-child {
+                    margin-bottom: 0;
+                }
+                
+                h5 {
+                    font-size: 20px;
+                    line-height: 26px;
+                    margin-bottom: 15px;
+                }
+
+                p {
+                    font-size: 16px;
+                    line-height: 26px;
+                }
+            }
+        }
+        .button {
+            margin-top: 36px;
+            @media (min-width:480px) {
+                margin-top: 30px;
+            }
+            @media (min-width:575px) {
+                margin-top: 38px;
+            }
+            .btn {
+                min-width: 150px;
+            }
+        }
+    }
+}
+
+
+

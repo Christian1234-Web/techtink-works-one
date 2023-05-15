@@ -1,0 +1,22 @@
+[
+    {
+        "color": "text-green",
+        "title": "<span class='counter'>28</span>K",
+        "text": "Total Users"
+    },
+    {
+        "color": "text-red",
+        "title": "<span class='counter'>13</span>K",
+        "text": "Care Locations"
+    },
+    {
+        "color": "text-yellow",
+        "title": "<span class='counter'>68</span>K",
+        "text": "Virtual Care Solutions"
+    },
+    {
+        "color": "text-blue",
+        "title": "<span class='counter'>10</span>K",
+        "text": "Success Rate"
+    }
+]

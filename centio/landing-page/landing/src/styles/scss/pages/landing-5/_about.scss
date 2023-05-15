@@ -1,0 +1,40 @@
+.about-section-02{
+    padding: 48px 0 60px;
+    background: rgb(0, 28, 128,0.02);
+    position: relative;
+    @media (min-width:768px) {
+        padding: 70px 0 80px;
+        
+    }
+    @media (min-width:992px) {
+        padding: 90px 0 90px;
+        
+    }
+    @media (min-width:1200px) {
+        padding: 130px 0;
+        
+    }
+    &__content{
+        margin-top: 12px;
+        @media (min-width:992px) {
+            margin-top: 0;
+            padding-left: 40px;
+        }
+        @media (min-width:1200px) {
+            padding-left: 0px;
+        }
+        .btn{
+            margin-top: 25px;
+            min-width: 150px;
+            @media (min-width:992px) {
+                margin-top: 40px;
+            }
+        }
+    }
+    &__shape{
+        position: absolute;
+        bottom: -58px;
+        left: 0;
+        width: 4%;
+    }
+}

@@ -1,0 +1,109 @@
+.cta-section-07 {
+    margin-top: 20px;
+    @media (min-width:768px) {
+        margin-top: 30px;
+    }
+    @media (min-width:992px) {
+        margin-top: 40px;
+    }
+    @media (min-width:1200px) {
+        margin-top: 65px;
+
+    }
+    &__wrapper {
+        @media (min-width:768px) {
+            background: #001C80;
+        }
+
+        position: relative;
+        padding: 60px 0;
+        border-radius: 20px;
+        z-index: 1;
+
+        @media (min-width:768px) {
+            padding: 80px 0;
+        }
+
+        &--top-shape {
+            display: none;
+            @media (min-width:768px) {
+                display: block;
+                position: absolute;
+                top: -3px;
+                left: 0;
+                width: 100%;
+                img {
+                    width: 100%;
+                }
+            }
+        }
+        &--shape-1 {
+            display: none;
+
+            @media (min-width:768px) {
+                display: block;
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 12%;
+                z-index: -1;
+
+                svg {
+                    width: 100%;
+                    border-top-left-radius: 18px;
+                }
+            }
+        }
+
+        &--shape-2 {
+            display: none;
+
+            @media (min-width:768px) {
+                display: block;
+                position: absolute;
+                top: 52%;
+                left: 5.8%;
+                width: 5%;
+                z-index: -2;   
+                height: 5%;         
+
+                svg {
+                    width: 100%;
+                    height: 100%;
+                    border-top-right-radius: 30px;
+                }
+            }
+        }
+
+        &--shape-3 {
+            display: none;
+
+            @media (min-width:768px) {
+                display: block;
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                width: 13%;
+                z-index: -2;
+                svg {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    &__newsletter {
+        margin: auto;
+        margin-top: 40px;
+    }
+
+}
+
+.cta-bg-group-4 {
+    background: #001C80;
+    position: relative;
+
+    @media (min-width:768px) {
+        background: inherit;
+    }
+}

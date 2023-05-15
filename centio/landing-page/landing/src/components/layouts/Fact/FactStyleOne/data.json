@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1fct",
+    "colorClass": "text-bule",
+    "title": "<span class='counter'>28</span>K",
+    "text": "Total Users"
+  },
+  {
+    "id": "2fct",
+    "colorClass": "text-yellow",
+    "title": "<span class='counter'>13</span>K",
+    "text": "Lifetime Downloads"
+  },
+  {
+    "id": "3fct",
+    "colorClass": "text-green",
+    "title": "<span class='counter'>68</span>K",
+    "text": "Social Likes"
+  },
+  {
+    "id": "4fct",
+    "colorClass": "text-red",
+    "title": "<span class='counter'>10</span>K",
+    "text": "5 Star Ratings"
+  }
+]

@@ -1,0 +1,41 @@
+.pricing-section-06 {
+  padding: 60px 0;
+position: relative;
+&__shape{
+  position: absolute;
+  top: 15%;
+  left: 0;
+  width: 3.4%;
+}
+  @media (min-width:768px) {
+    padding: 80px 0;
+  }
+
+  @media (min-width:992px) {
+    padding: 100px 0;
+
+  }
+  @media (min-width:1200px) {
+    padding: 130px 0;
+
+  }
+
+  &__title {
+    margin-bottom: 35px;
+    @media (min-width:992px) {
+      margin-bottom: 80px;
+    }
+  }
+
+  .pricing-sider{
+    .slick-slide{
+      margin:0 12px;
+      &:not(.slick-current){
+         .card{
+             box-shadow: none;
+             transition: .4s;
+         }
+      }
+  }
+  }
+}

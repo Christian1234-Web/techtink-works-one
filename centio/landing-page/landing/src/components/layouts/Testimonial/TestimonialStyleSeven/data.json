@@ -1,0 +1,23 @@
+[
+  {
+    "id": "l04t01",
+    "image": "./image/home-3/t-1.png",
+    "userName": "Jenny Wilson",
+    "position": "Graphic Designer",
+    "text": "OMG! I cannot believe that I have got a brand new landing page after getting Custer. It was super easy to edit and publish."
+  },
+  {
+    "id": "l04t02",
+    "image": "./image/home-3/t-2.png",
+    "userName": "Robert Fox",
+    "position": "Digital Marketer",
+    "text": "OMG! I cannot believe that I have got a brand new landing page after getting Custer. It was super easy to edit and publish."
+  },
+  {
+    "id": "l04t03",
+    "image": "./image/home-3/t-3.png",
+    "userName": "Mila McSabbu",
+    "position": "HR Manager",
+    "text": "OMG! I cannot believe that I have got a brand new landing page after getting Custer. It was super easy to edit and publish."
+  }
+]

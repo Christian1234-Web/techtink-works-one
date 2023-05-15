@@ -1,0 +1,108 @@
+@use "../../abstracts/mixins" as utils;
+.content-section-04 {
+  background: rgb(120, 27, 255, 0.03);
+  position: relative;
+  padding-top: 70px;
+  padding-bottom: 60px;
+  @media (min-width: 768px) {
+    padding-top: 97px;
+    padding-bottom: 75px;
+  }
+
+  @media (min-width: 992px) {
+    padding-top: 130px;
+    padding-bottom: 95px;
+  }
+  @media (min-width: 1200px) {
+    padding-top: 198px;
+    padding-bottom: 125px;
+  }
+
+  .scetion-shape {
+    position: absolute;
+    top: -10px;
+    width: 100%;
+  }
+
+  .content-texts {
+    margin-bottom: 45px;
+    @media (min-width:992px) {
+      margin-bottom: 0px;
+      
+    }
+    .subtitle {
+      margin-bottom: 10px;
+      @media (min-width:768px) {
+        margin-bottom: 20px;
+      }
+    }
+    
+
+    .btn {
+      margin-top: 30px;
+      @media (min-width:1200px) {
+        margin-top: 40px;
+      }
+      min-width: 150px !important;
+    }
+  }
+
+  &__widget {
+    @media (min-width: 992px) {
+      padding-left: 30px;
+    }
+    margin-bottom: -40px;
+    [class^="col"] {
+      margin-bottom: 40px;
+      &:last-child {
+        .widget-icon {
+          &::before {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+.widget-content--02 {
+  @media (max-width: 576px) {
+    align-items: center;
+    text-align: center;
+  }
+  .widget-icon {
+    background: #781bff;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    position: relative;
+    @include utils.square(50px, 500px);
+    @include utils.flexAllCenter;
+    margin-right: 30px;
+    @media (min-width: 992px) {
+      &::before {
+        content: "";
+        position: absolute;
+        height: 61px;
+        width: 2px;
+        background: linear-gradient(90deg, #8c30f5 0%, #ff4b5c 100%);
+        opacity: 0.2;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, 50%);
+      }
+    }
+  }
+  .widget-text {
+    .widget-title {
+      margin-bottom: 5px;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 26px;
+      color: rgb(0, 11, 51,0.8);
+    }
+  }
+}

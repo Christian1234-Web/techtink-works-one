@@ -1,0 +1,42 @@
+.content-section-13{
+    padding: 55px 0 60px;
+    position: relative;
+    z-index: 1;
+    @media (min-width:768px) {
+        padding: 75px 0 80px;
+    }
+    @media (min-width:992px) {
+        padding: 100px 0;
+    }
+    @media (min-width:1200px) {
+        padding: 130px 0;
+    }
+    &__content{
+        .btn{
+            min-width: 150px;
+            margin-top: 30px;
+            @media (min-width:576px) {
+                margin-top: 40px;
+                
+            }
+        }
+    }
+    &__image-group{
+        img{
+            filter: drop-shadow(0px 32px 54px rgba(65, 74, 85, 0.22));
+        }
+        @media (min-width:1200px) {
+            margin-left: -18%;
+        }
+    }
+    &__shape{
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 23.3%;
+        z-index: -1;
+        img{
+            width: 100%;
+        }
+    }
+}

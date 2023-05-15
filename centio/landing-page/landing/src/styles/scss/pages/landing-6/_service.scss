@@ -1,0 +1,87 @@
+.service-section-01{
+    padding: 55px 0 60px;
+    @media (min-width:768px) {
+        padding: 75px 0 80px;
+        
+    }
+    @media (min-width:992px) {
+        
+        padding: 95px 0 100px;
+    }
+    @media (min-width:1200px) {
+        
+        padding: 125px 0 130px;
+    }
+    position: relative;
+    .section-title{
+        margin-bottom: 35px;
+        @media (min-width:992px) {
+            margin-bottom: 80px;
+        }
+    }
+    &__shape{
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 22.9%;
+    }
+    &__card{
+        padding: 30px 25px;
+        text-align: center;
+        background: #FFFFFF;
+        border: 0.25px solid rgb(0, 11, 51,0.25);
+        box-sizing: border-box;
+        border-radius: 10px;
+        transition: .3s;
+        @media (min-width:576px) {
+            padding: 35px 30px;
+
+        }
+        @media (min-width:1200px) {
+            padding: 50px 64px;
+        }
+        &:hover{
+            box-shadow: 0px 4px 40px rgba(43, 89, 255, 0.08);
+            border: 0.25px solid transparent;
+        }
+        .widget-icon{
+            background: rgb(55, 124, 253,0.1);
+            min-width: 70px;
+            min-height: 70px;
+            max-width: 70px;
+            max-height: 70px;
+            border-radius: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+            margin-bottom: 25px;
+            @media (min-width:575px) {
+                min-width: 80px;
+                min-height: 80px;
+                max-width: 80px;
+                max-height: 80px;
+                margin-bottom: 30px;
+            }
+            @media (min-width:768px) {
+                min-width: 80px;
+                min-height: 80px;
+                max-width: 80px;
+                max-height: 80px;
+            }
+        }
+        .widget-title{
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 1.444444444444444;
+            @media (min-width:576px) {
+                font-size: 20px;
+            }
+        }
+        .widget-text{
+            font-size: 16px;
+            line-height: 26px;
+            color: rgb(0, 11, 51,0.8);
+        }
+    }
+}

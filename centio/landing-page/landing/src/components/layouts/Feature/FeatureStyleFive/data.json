@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "image": "./image/home-5/testimonial-1.png",
+    "title": "There are three main <br> branches of science other <br> natural.",
+    "newPrice": "19.99",
+    "oldPrice": "90.00",
+    "badgeColor": "group-green",
+    "badgeText": "Science"
+  },
+  {
+    "id": 2,
+    "image": "./image/home-5/testimonial-2.png",
+    "title": "Biology study of life and <br> living organisms,biotic <br> Factors.",
+    "newPrice": "14.99",
+    "oldPrice": "90.00",
+    "badgeColor": "group-violet",
+    "badgeText": "Biology"
+  },
+  {
+    "id": 3,
+    "image": "./image/home-5/testimonial-3.png",
+    "title": "Math is the preferred  <br> term in the United States <br> and Canada.",
+    "newPrice": "12.99",
+    "oldPrice": "90.00",
+    "badgeColor": "group-red",
+    "badgeText": "Mathametics"
+  },
+  {
+    "id": 4,
+    "image": "./image/home-5/testimonial-4.png",
+    "title": "English is a West <br> Germanic language first <br>spoken in early.",
+    "newPrice": "29.99",
+    "oldPrice": "90.00",
+    "badgeColor": "group-yellow",
+    "badgeText": "English"
+  }
+]

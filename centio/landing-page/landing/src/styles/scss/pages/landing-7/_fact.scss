@@ -1,0 +1,58 @@
+.counter-section-07 {
+    padding: 60px 0;
+    background: linear-gradient(90.28deg, #001C80 0.26%, #153ABF 30.33%, #2B59FF 99.79%);
+    @media (min-width:768px) {
+        padding: 85px 0;
+    }
+.col-xl-3{
+    &:nth-child(1){
+        .widget-icon{
+            background: rgb(0, 187, 152,0.3);
+        }
+    }
+    &:nth-child(2){
+        .widget-icon{
+            background: rgb(255, 200, 62,0.3);
+        }
+    }
+    &:nth-child(3){
+        .widget-icon{
+            background: rgb(253, 76, 92,0.3);
+        }
+    }
+    &:nth-child(4){
+        .widget-icon{
+            background: rgb(255, 255, 255,0.3);
+        }
+    }
+}
+    .widget-counter {
+        @media (min-width:768px) {
+            align-items: flex-start;
+        }
+        .widget-icon{
+            min-height: 50px;
+            max-height: 50px;
+            min-width: 50px;
+            max-width: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 500px;
+            @media (min-width:576px) {
+                min-height: 60px;
+                max-height: 60px;
+                min-width: 60px;
+                max-width: 60px;
+            }
+            @media (min-width:768px) {
+                margin-top: 10px;
+            }
+        }
+        .widget-text{
+          @media (min-width:992px) {
+           text-align: start;   
+        }  
+        }
+    }
+}

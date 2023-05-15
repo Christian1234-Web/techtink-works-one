@@ -1,0 +1,61 @@
+/*
+    Note: This section is similar to landing 4 about section. if you have used that section you can delete the duplicate codes poointed bellow.
+*/
+
+/* duplicated code starts*/
+/*
+.pricing-section-02{
+  background: rgb(43, 89, 255,0.02);
+  padding: 56px 0;
+  @media (min-width:768px) {
+    padding: 76px 0;
+  }
+  @media (min-width:992px) {
+    padding: 125px 0;
+    
+  }
+  &__title{
+    .subtitle{
+      margin-bottom: 20px;
+    }
+    margin-bottom: 35px;
+    @media (min-width:768px) {
+      margin-bottom: 80px;
+    }
+  }
+  .pricing-sider{
+    .slick-slide{
+      margin: 0 12px;
+    }
+  }
+}*/
+/*duplicated code ends*/
+.pricing-section-02--2{
+  background: rgb(55, 124, 253,0.02) !important;
+  .section-title{
+    .subtitle{
+      color: #00BB98 !important;
+    }
+  }
+  .card-pricing--02__button{
+    .btn-primary-outline{
+      border-radius: 3px !important;
+      border-color:#FD4C5C !important;
+      color: #FD4C5C !important;
+      &:hover{
+        color: #fff !important;
+      }
+      &:before{
+        background: #FD4C5C !important;
+      }
+    }
+    .btn-primary-outline-reverse{
+      &:before{
+        background: #FD4C5C !important;
+      }
+      &:hover{
+        border-color:#FD4C5C !important;
+      }
+    }
+  }
+}

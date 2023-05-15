@@ -1,0 +1,23 @@
+[
+    {
+        "image": "./image/home-9/testimonial-1.png",
+        "userName": "Mila McSabbu",
+        "position": "Digital Marketer",
+        "text": "OMG! I cannot believe that I have got a brand new landing page after getting Custer. It was super easy to edit and publish.I have got a brand new landing page.",
+        "rating":"5"
+    },
+    {
+        "image": "./image/home-9/testimonial-2.png",
+        "userName": "Jenny Wilson",
+        "position": "Graphic Designer",
+        "text": "OMG! I cannot believe that I have got a brand new landing page after getting Custer. It was super easy to edit and publish.I have got a brand new landing page.",
+        "rating":"5"
+    },
+    {
+        "image": "./image/home-9/testimonial-2.png",
+        "userName": "Jenny Wilson",
+        "position": "Graphic Designer",
+        "text": "OMG! I cannot believe that I have got a brand new landing page after getting Custer. It was super easy to edit and publish.I have got a brand new landing page.",
+        "rating":"5"
+    }
+]

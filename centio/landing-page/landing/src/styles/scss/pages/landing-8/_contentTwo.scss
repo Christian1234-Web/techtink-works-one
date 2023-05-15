@@ -1,0 +1,85 @@
+.content-section-18{
+    padding: 60px 0;
+    @media (min-width:768px) {
+        padding: 80px 0;
+    }
+    @media (min-width:992px) {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    @media (min-width:1200px) {
+        padding: 130px 0 130px;
+    }
+    &__image-group{
+        position: relative;
+        img{
+            border-radius: 10px;
+            filter: drop-shadow(-6px 6px 60px rgba(0, 0, 0, 0.08));
+        }
+        &--card{
+            position: absolute;
+            bottom: 0%;
+            right: 13%;
+            width: 38.6%;
+            z-index: 11;
+            img{
+                filter: drop-shadow(0px 32px 54px rgba(65, 74, 85, 0.22));
+            }
+            @media (min-width:768px) {
+                transform: translateY(-50%);
+                top: 50%;
+            }
+            @media (min-width:992px) {
+                right: 0%;
+            }
+            @media (min-width:1200px) {
+                right: 13%;
+            }
+        }
+        &--shape{
+            bottom: -24%;
+            right: 18%;
+            position: absolute;
+            width: 28.4%;
+            @media (min-width:768px) {
+                bottom: -4%;
+
+            }
+            @media (min-width:992px) {
+                right: 0%;
+            }
+            @media (min-width:1200px) {
+                right: 18%;
+            }
+        }
+        &--dotst{
+            top: -17%;
+            left: -9%;
+            position: absolute;
+            width: 35.3%;
+            z-index: -1;
+        }
+    }
+    &__content{
+        &--list{
+            margin: 0;
+            padding: 0;
+            margin-top: 20px;
+            list-style: none;
+            li{
+                display: flex;
+                align-items: center;
+                color: #000B33;
+                font-size: 16px;
+                line-height: 26px;
+                margin-bottom: 15px;
+                &:last-child{
+                    margin-bottom: 0;
+                }
+                img{
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "declaration": true,
+        "removeComments": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "allowSyntheticDefaultImports": true,
+        "target": "es2017",
+        "sourceMap": true,
+        "baseUrl": ".",
+        "resolveJsonModule": true,
+        "moduleResolution": "node",
+        "paths": {
+            "~components/*": ["src/components/*"],
+            "~components": ["src/components"],
+            "~fonts/*": ["public/fonts/*"],
+            "~fonts": ["public/fonts"],
+            "~image/*": ["public/image/*"],
+            "~image": ["public/image"],
+            "~sections": ["src/components/sections"],
+            "~sections/*": ["src/components/sections/*"],
+            "~styled/*": ["src/styles/*"],
+            "~styled": ["src/styles"],
+            "~scss/*": ["src/styles/scss/*"],
+            "~scss": ["src/styles/scss"],
+            "~data/*": ["src/data/*"],
+            "~data": ["src/data"],
+            "@/*": ["node_modules/*"],
+            "@": ["node_modules"],
+        },
+    }
+}

@@ -1,0 +1,143 @@
+/*********** CSS TABLE OF CONTENTS *******************
+
+|--- 01.Component -> { Header }
+|--- 01.Component -> { Menu }
+|--- 01.Component -> { Button }
+|--- 01.Component -> { Lists }
+|--- 01.Component -> { Background }
+|--- 01.Component -> { Form }
+|--- 01.Component -> { Cards }
+|--- 01.Component -> { Modal }
+|--- 01.Component -> { Tab }
+|--- 01.Component -> { Acccordion }
+|--- 01.Component -> { Sidebar }
+|--- THEME CUSTOM STYLES
+
+******************************************************/
+
+@use "helpers/typography";
+@use "helpers";
+@use "components";
+@use "pages";
+@use "react-adjustment";
+
+/* ---------------------------------
+-------> THEME CUSTOM STYLES 
+---------------------------------
+*/
+.testimonil-slider--01__control-buttons .button {
+  .svg-image {
+    height: 100%;
+    > div {
+      height: 100%;
+      display: flex;
+      align-items: center;
+    }
+  }
+}
+.card-pricing--01__list li {
+  display: flex;
+}
+.mxw-none {
+  max-width: none !important;
+}
+.bg-white-op02{
+  background: rgba(120, 27, 255, 0.02)!important;
+}
+.slider-dots-style-one{
+  .slick-track{
+    display: flex;
+  }
+  .slick-dots {
+    padding: 0;
+    margin: 0;
+    margin-top: 40px;
+    display: flex!important;
+    align-items: center;
+    justify-content: center;
+    li {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        margin: 0 6px;
+        
+        button {
+            border: none;
+            list-style: none;
+            width: 8px;
+            height: 8px;
+            padding: 0;
+            border-radius: 500px;
+            background-color: rgba(253, 76, 92,0.2);
+            color: transparent;
+            font-size: 0;
+            
+            &:focus {
+                outline: none;
+                box-shadow: none;
+            }
+        }
+
+        &.slick-active {
+            background: #FD4C5C !important;
+            width: 8px;
+            height: 8px;
+            border-radius: 500px;
+        }
+    }
+  }
+}
+
+.four-row-mobile-slider{
+  .slick-list{
+    margin:0 -12px;
+  }
+}
+.slider-minimal{
+  .slick-track{
+    display: flex;
+  }
+  .slick-list{
+    margin:0 -12px;
+  }
+  .slick-slide{
+    margin: 0 12px;
+  }
+}
+
+.screenshot-slider .slick-dots{
+  position: absolute;
+  bottom: -85px;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 30px;
+}
+
+.nav-tab--content-2.nav-tab--content-2--02 .nav-link{
+  color: #fff!important;
+}
+
+.slick-svg-icon{
+  >div{
+    display: flex;
+  }
+}
+
+.pricing-center-card-scale{
+  [class^="col-"]{
+    &:nth-child(2){
+      position: relative;
+      z-index: 2!important;
+      >div{
+        z-index: 2!important;
+      }
+    }
+    &:first-child,&:last-child{
+      position: relative;
+      z-index: 1!important;
+      >div{
+        z-index: 1;
+      }
+    }
+  }
+}

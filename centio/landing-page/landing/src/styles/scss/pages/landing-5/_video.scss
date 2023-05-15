@@ -1,0 +1,54 @@
+@use "../../abstracts/mixins"as utils;
+@use "../../abstracts/colors"as color;
+
+.video-section-02 {
+    padding: 80px 0;
+    position: relative;
+    z-index: 1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    &::before{
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background: rgb(41, 87, 255,0.8);
+        z-index: -1;
+    }
+    @media (min-width:768px) {
+        padding: 100px 0;
+        
+    }
+    @media (min-width:992px) {
+        padding: 150px 0;
+    }
+    @media (min-width:1200px) {
+        padding: 210px 0;
+    }
+    .video-block {
+        .video-btn-1 {
+            margin: auto;
+            @include utils.flexAllCenter;
+            @include utils.square(60px, 500px);
+
+            @media (min-width:576px) {
+                @include utils.square(90px, 500px);
+            }
+
+            i {
+                font-size: 18px;
+            }
+        }
+
+        &--text {
+            text-align: center;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 30px;
+            margin-top: 25px;
+        }
+    }
+}

@@ -1,0 +1,18 @@
+.cta-section-02{
+    position: relative;
+    z-index: 1;
+    padding: 40px 0 50px;
+    @media (min-width:768px) {
+        padding: 70px 0 80px;
+    }
+    @media (min-width:992px) {
+        padding: 90px 0 100px;
+    }
+    &__newsletter{
+        margin: auto;
+        margin-top: 40px;
+        .form-control{
+            font-weight: 600;
+        }
+    }
+}

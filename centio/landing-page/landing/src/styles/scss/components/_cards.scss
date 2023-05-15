@@ -1,0 +1,1341 @@
+@use "../theme/theme-2"as *;
+@use "../components/button";
+
+.card-title {
+  font-size: 20px;
+  line-height: 1.3;
+}
+
+/* Landiing-2 Pricing Card */
+.card-pricing--01 {
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-bottom: 45px;
+  background: #ffffff;
+  border: 1px solid #e8e0f4;
+  border-radius: 10px;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  @media (min-width:992px) {
+    &.active {
+      position: relative;
+      box-shadow: none;
+      &:before {
+        content: "";
+        background: #fff;
+        top: 3px;
+        left: 3px;
+        position: absolute;
+        z-index: -1;
+        border-radius: 10px;
+        bottom: 3px;
+        right: 3px;
+      }
+      &:after {
+        content: "";
+        background-image: linear-gradient(90deg, #8C30F5 0%, #FF4B5C 100%);
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        position: absolute;
+        z-index: -2;
+        border-radius: 10px;
+      }
+    }
+  }
+  &__head {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(120, 27, 255,0.1);
+  }
+
+  &__plan-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.25;
+    margin-bottom: 20px;
+  }
+
+  &__price {
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 79px;
+    text-align: center;
+    letter-spacing: -0.5px;
+    margin-bottom: 10px;
+  }
+
+  &__plan-text {
+    background: -webkit-linear-gradient(0deg, #8C30F5 0%, #FF4B5C 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 16px;
+    line-height: 1.625;
+  }
+
+  &__list {
+    text-align: left;
+    padding-top: 30px;
+    padding-bottom: 20px;
+
+    li {
+      font-size: 16px;
+      line-height: 26px;
+      color: #000b33;
+      padding-top: 7.5px;
+      padding-bottom: 7.5px;
+
+      .icon-check {
+        position: relative;
+        top: -3px;
+        margin-right: 8px;
+      }
+    }
+  }
+
+  .btn {
+    --radius: 3px;
+    min-width: 150px;
+    height: 50px;
+  }
+}
+
+/* Landiing-4 Pricing Card */
+.card-pricing--02 {
+  position: relative;
+  border: 0;
+  text-align: center;
+  background: white;
+  padding: 40px 45px 50px 45px;
+  border-radius: 10px;
+  z-index: 1;
+  border: 1px solid #E9E5EF;
+  @media (min-width:992px) {
+    border: 0;
+    box-shadow: -20px 10px 60px rgba(0, 0, 0, 0.03);
+    &.active {
+      box-shadow: none;
+      &:before {
+        content: "";
+        background: #fff;
+        /* width: 100%; */
+        /* height: 100%; */
+        top: 3px;
+        left: 3px;
+        position: absolute;
+        z-index: -1;
+        border-radius: 10px;
+        bottom: 3px;
+        right: 3px;
+      }
+      &:after {
+        content: "";
+        background-image: linear-gradient(90.28deg, #001C80 0.26%, #153ABF 30.33%, #2B59FF 99.79%);
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        position: absolute;
+        z-index: -2;
+        border-radius: 10px;
+      }
+    }
+  }
+
+  &__head {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(120, 27, 255,0.1);
+  }
+
+  &__plan-title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 34px;
+  }
+
+  &__plan-img {
+    margin: auto;
+    margin-bottom: 30px;
+  }
+
+  &__price {
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 79px;
+    text-align: center;
+    letter-spacing: -0.5px;
+    margin-bottom: 10px;
+  }
+
+  &__plan-text {
+    font-size: 16px;
+    line-height: 1.625;
+  }
+
+  &__list {
+    text-align: left;
+    padding-top: 30px;
+    padding-bottom: 20px;
+
+    li {
+      font-size: 16px;
+      line-height: 26px;
+      color: #000b33;
+      padding-top: 7.5px;
+      padding-bottom: 7.5px;
+
+      .icon-check {
+        position: relative;
+        top: -3px;
+        margin-right: 8px;
+      }
+    }
+  }
+
+  .btn {
+    --radius: 3px;
+    min-width: 150px;
+    height: 50px;
+  }
+}
+
+/* Landiing-6 Pricing Card */
+.card-pricing--03 {
+  border: 0;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #ffffff;
+  padding: 45px;
+  border: 1px solid #EFEAF7;
+
+  &__head {
+    padding-bottom: 30px;
+    text-align: start;
+    border-bottom: 1px solid rgba(120, 27, 255,0.1);
+  }
+
+  &__plan-title {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 20px;
+  }
+
+  &__plan-img {
+    margin: auto;
+    margin-bottom: 30px;
+  }
+
+  &__price {
+    span {
+      color: #000b33;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 26px;
+    }
+
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: -0.5px;
+    margin-bottom: 2px;
+  }
+
+  &__plan-text {
+    font-size: 16px;
+    line-height: 1.625;
+  }
+
+  &__list {
+    text-align: left;
+    padding-top: 30px;
+    padding-bottom: 17px;
+
+    li {
+      font-size: 16px;
+      line-height: 26px;
+      color: #000b33;
+      padding-top: 7.5px;
+      padding-bottom: 7.5px;
+
+      .icon-check {
+        position: relative;
+        top: -3px;
+        margin-right: 8px;
+      }
+    }
+  }
+
+  .btn {
+    --radius: 3px;
+    min-width: 150px;
+    height: 50px;
+  }
+  &:not(.active){
+    .btn{
+      @extend .btn-primary-outline;
+    }
+  }
+  &.active{
+    .btn{
+      @extend .btn-primary-outline-reverse;
+    }
+  }
+}
+
+/* Landiing-6 Pricing Card */
+.card-pricing--04 {
+  border: 0;
+  border-radius: 10px;
+  border: 1px solid #E9E5EF;
+  text-align: center;
+  border-radius: 5px;
+  padding: 40px 45px;
+@media (min-width:992px) {
+  border: none;
+  box-shadow: 0px 4px 40px rgba(43, 89, 255, 0.08);
+}
+  &__head {
+    padding-bottom: 30px;
+  }
+
+  &__plan-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 20px;
+  }
+
+  &__plan-img {
+    margin: auto;
+    margin-bottom: 30px;
+  }
+
+  &__price {
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 1.097222222222222;
+    letter-spacing: -0.5px;
+    margin-bottom: 10px;
+
+    @media (min-width:576px) {
+      font-size: 72px;
+    }
+  }
+
+  &__plan-text {
+    font-size: 16px;
+    line-height: 1.625;
+  }
+
+  &__list {
+    padding-bottom: 8px;
+
+    li {
+      border-top: 1px solid rgb(0, 11, 51, 0.1);
+      font-size: 16px;
+      line-height: 26px;
+      color: #000b33;
+      padding: 15px;
+    }
+  }
+  &:not(.active){
+    .btn{
+      @extend .btn-primary-outline;
+    }
+  }
+  &.active{
+    z-index: 2;
+    .btn{
+      @extend .btn-primary-outline-reverse;
+    }
+  }
+ 
+  .btn {
+    --radius: 3px;
+    min-width: 150px;
+    height: 50px;
+    
+  }
+}
+
+/* Landiing-10 Pricing Card */
+.card-pricing--05 {
+  border: 0;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #ffffff;
+  padding: 50px;
+  border: 1px solid #E9E5EF;
+  transition: .3s;
+
+  @media (min-width:992px) {
+    border: none;
+
+    &.active {
+      box-shadow: 0px 4px 40px rgba(43, 89, 255, 0.08);
+    }
+  }
+
+  &__head {
+    padding-bottom: 30px;
+    text-align: start;
+    border-bottom: 1px solid rgba(120, 27, 255,0.1);
+  }
+
+  &__plan-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 15px;
+  }
+
+  &__price {
+    span {
+      color: #000b33;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 26px;
+      margin-right: 8px;
+    }
+
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -0.5px;
+    font-size: 50px;
+    margin-bottom: 15px;
+
+    @media (min-width:1200px) {
+      font-size: 60px;
+    }
+  }
+
+  &__plan-text {
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  &__list {
+    text-align: left;
+    padding-top: 30px;
+    padding-bottom: 17px;
+
+    li {
+      display: flex;
+      align-items: center;
+
+      .icon-check {
+        width: 20px;
+        height: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #2B59FF;
+        border-radius: 500px;
+
+        svg {
+          width: 11.3px;
+          height: 8.22px;
+        }
+      }
+
+      span {
+        display: block;
+        margin-left: 10px;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        color: #000b33;
+        padding-top: 8.5px;
+        padding-bottom: 8.5px;
+      }
+    }
+  }
+
+  .btn {
+    --radius: 3px;
+    min-width: 150px;
+    height: 50px;
+  }
+}
+
+/* Pricing-2 Pricing Card */
+.card-pricing--06 {
+  border: 0;
+  border-radius: 10px;
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid #E9E5EF;
+  padding: 40px 45px;
+  @media (min-width:992px) {
+    border: none;
+    box-shadow: -6px 6px 60px rgba(0, 0, 0, 0.08);
+  }
+  &__head {
+    padding-bottom: 30px;
+  }
+
+  &__plan-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 20px;
+  }
+
+  &__price {
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 1.097222222222222;
+    letter-spacing: -0.5px;
+    margin-bottom: 10px;
+
+    @media (min-width:576px) {
+      font-size: 72px;
+    }
+  }
+
+  &__plan-text {
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  &__list {
+    li {
+      border-top: 1px solid rgb(0, 11, 51, 0.1);
+      font-size: 16px;
+      line-height: 26px;
+      color: #000b33;
+      padding: 15px;
+    }
+  }
+
+
+  &__button {
+    .btn {
+      --radius: 3px;
+      min-width: 150px;
+      height: 50px;
+    }
+
+    .btn-rounded-secondary {
+      --radius: 30px;
+      --border-width: 2px;
+      background: #fff;
+      border-width: var(--border-width);
+      border-style: solid;
+      border-color: transparent;
+      position: relative;
+      z-index: 1;
+      border-radius: 30px;
+      color: #FD4C5C;
+
+      &:before {
+        content: "";
+        background: #FD4C5C;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        z-index: -2;
+        border-radius: 3px;
+        transition: 0.4s;
+      }
+
+      &:after {
+        content: "";
+        background: #fff;
+        position: absolute;
+        top: var(--border-width);
+        left: var(--border-width);
+        right: var(--border-width);
+        bottom: var(--border-width);
+        border-radius: 3px;
+        z-index: -1;
+        transition: 0.4s;
+      }
+
+      &.active,
+      &:hover {
+        color: #fff;
+
+        &:after {
+          left: 100%;
+        }
+      }
+
+      &.active {
+        &:hover {
+          color: #000;
+
+          &:after {
+            left: var(--border-width);
+          }
+        }
+      }
+    }
+  }
+}
+
+/* Landiing-2 Testimonial Card */
+.card-testimonial-01 {
+  display: block;
+
+  &__img {
+    margin-left: 33px;
+    border-radius: 500px;
+    border: 6.43px solid transparent;
+    background: linear-gradient(90deg, rgba(123, 36, 255, 0.8) 0%, rgba(253, 78, 93,0.8) 100%)border-box;
+    display: inline-block;
+    img {
+      border-radius: 500px;
+      min-width: 70px;
+      min-height: 70px;
+      max-width: 70px;
+      max-height: 70px;
+      object-fit: cover;
+      @media (min-width: 768px) {
+        min-width: 77.14px;
+        min-height: 77.14px;
+        max-width: 77.14px;
+        max-height: 77.14px;
+      }
+    }
+  }
+
+  &__content {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 86px 30px 30px 30px;
+    border: 1px solid #E9E5EF;
+    margin-top: -55px;
+    @media (min-width:992px) {
+      border: none;
+      box-shadow: 0px 4px 40px rgba(43, 89, 255, 0.08);
+    }
+
+    p {
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 24px;
+    }
+
+    .client-info {
+      margin-bottom: 16px;
+      &--detail {
+        margin-right: 20px;
+        h6 {
+          font-weight: bold;
+          font-size: 20px;
+          line-height: 26px;
+          margin-bottom: 4px;
+        }
+
+        small {
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 26px;
+        }
+      }
+
+      &--rating {
+        color: $secondary;
+        margin-top: 12px;
+      }
+      @media (min-width:1200px) {
+        display: flex;
+        justify-content: space-between;
+        &--rating {
+          margin-top: 0;
+        }
+      }
+    }
+  }
+}
+
+/* Landiing-3 Testimonial Card */
+.card-testimonil-02 {
+  text-align: center;
+  border: 0;
+
+  .card-text {
+    position: relative;
+    padding: 30px;
+    background: #FFFFFF;
+    border: 1px solid #E9E5EF;
+    border-radius: 10px;
+    z-index: 1;
+
+    p {
+      line-height: 26px;
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      margin: auto;
+      bottom: -10px;
+      left: 0;
+      right: 0;
+      width: 18px;
+      height: 18px;
+      transform: rotate(45deg);
+      border-right: 1px solid #E9E5EF;
+      border-bottom: 1px solid #E9E5EF;
+      background-color: white;
+      z-index: -1;
+    }
+  }
+
+  .card-info {
+    margin-top: 34px;
+
+    &--img {
+      margin-bottom: 15px;
+
+      img {
+        border: 5.71px solid #fff;
+        box-shadow: 0px 4px 40px rgba(43, 89, 255, 0.08);
+        max-width: 68.57px;
+        max-height: 68.57px;
+        min-width: 68.57px;
+        min-height: 68.57px;
+        object-fit: cover;
+        border-radius: 500px;
+        margin: auto;
+      }
+    }
+
+    &--details {
+      h6 {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 26px;
+        margin-bottom: 4px;
+      }
+
+      small {
+        font-size: 16px;
+        line-height: 26px;
+      }
+    }
+  }
+}
+
+/* Landiing-4 Testimonial Card */
+.card-testimonil-03 {
+  border: 0;
+  background: #FFFFFF;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 40px rgba(43, 89, 255, 0.08);
+  @media (min-width:768px) {
+    padding: 50px 40px;
+    
+  }
+  .card-text {
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .card-info {
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+    &--img {
+      margin-right: 24.29px;
+
+      img {
+        max-width: 70px;
+        max-height: 70px;
+        min-width: 70px;
+        min-height: 70px;
+        object-fit: cover;
+        border-radius: 500px;
+      }
+    }
+
+    .card-body {
+      &--name {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 26px;
+        margin-bottom: 4px;
+      }
+
+      &--profession {
+        font-size: 16px;
+        line-height: 26px;
+      }
+    }
+  }
+}
+
+/* Landiing-7 Testimonial Card */
+.card-testimonial-04 {
+  &__content {
+    padding: 40px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    position: relative;
+    border: 1px solid #E9E5EF;
+
+    @media (min-width:992px) {
+      border: none;
+      box-shadow: 0px 4px 40px rgba(43, 89, 255, 0.08);
+
+      &::before {
+        position: absolute;
+        content: "";
+        bottom: -26px;
+        left: 22px;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 0 30px 30px 0;
+        border-color: transparent white transparent transparent;
+      }
+    }
+
+    .text {
+      font-size: 18px;
+      line-height: 26px;
+    }
+
+    &--rataing {
+      margin: 0 -1px;
+      margin-top: 30px;
+
+      i {
+        color: #FD4C5C;
+        margin: 0 1px;
+      }
+    }
+  }
+
+  &__info {
+    margin-top: 36px;
+    display: flex;
+    align-items: center;
+
+    &--img {
+      margin-right: 24.29px;
+
+      img {
+        border: 5px solid white;
+        box-shadow: 0px 4px 40px rgba(43, 89, 255, 0.08);
+        max-width: 70px;
+        max-height: 70px;
+        min-width: 70px;
+        min-height: 70px;
+        -o-object-fit: cover;
+        object-fit: cover;
+        border-radius: 500px;
+      }
+    }
+
+    &--details {
+      .name {
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 26px;
+        margin-bottom: 4px;
+      }
+
+      .position {
+        font-size: 16px;
+        line-height: 26px;
+      }
+    }
+  }
+}
+
+/* Landiing-10 Testimonial Card */
+.card-testimonial-05 {
+  background: #FFFFFF;
+  border: 1px solid #E8E8E8;
+  border-radius: 10px;
+  padding: 40px;
+
+  .text {
+    font-size: 18px;
+    line-height: 26px;
+    padding-bottom: 30px;
+    @media (min-width:992px) {
+      padding-bottom: 40px;
+      
+    }
+  }
+
+  &__body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    &--info {
+      display: flex;
+      align-items: center;
+
+      .client-img {
+        margin-right: 20px;
+
+        img {
+          min-height: 60px;
+          min-width: 60px;
+          max-height: 60px;
+          max-width: 60px;
+          object-fit: cover;
+        }
+      }
+
+      .client-info {
+        .name {
+          font-weight: bold;
+          font-size: 18px;
+          line-height: 25px;
+          margin-bottom: 5px;
+        }
+
+        .skill {
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 21px;
+        }
+      }
+    }
+
+    &--ratting {
+      color: #FFC83E;
+    }
+  }
+}
+
+/* Landiing-9 Testimonial Card */
+.card-testimonial-06 {
+  display: block;
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 40px;
+  border: 1px solid #E9E5EF;
+
+  @media (min-width:992px) {
+    border: none;
+    box-shadow: 0px 4px 40px rgba(43, 89, 255, 0.08);
+  }
+
+  &__img {
+    margin-bottom: 15px;
+
+    img {
+      border-radius: 500px;
+      min-width: 70px;
+      min-height: 70px;
+      max-width: 70px;
+      max-height: 70px;
+      object-fit: cover;
+
+    }
+  }
+
+  &__content {
+    p {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+    }
+
+    .client-info {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 16px;
+      flex-wrap: wrap;
+
+      &--deatail {
+        margin-right: 25px;
+
+        h6 {
+          font-weight: bold;
+          font-size: 20px;
+          line-height: 26px;
+          margin-bottom: 4px;
+        }
+
+        small {
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 26px;
+        }
+      }
+
+      &--rataing {
+        color: #FFC83E;
+      }
+    }
+  }
+}
+
+/* Landiing-5 About Card */
+.card-about {
+  background: #FFFFFF;
+  padding: 30px 38px;
+  box-shadow: 0px 4px 40px rgba(43, 89, 255, 0.08);
+  border-radius: 10px;
+  text-align: center;
+  margin: 12px 0;
+
+  &__body {
+    margin-top: 25px;
+
+    &--title {
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 26px;
+      margin-bottom: 10px;
+    }
+
+    &--text {
+      font-size: 16px;
+      line-height: 26px;
+    }
+  }
+}
+
+/* Landiing-5 About Card */
+.card-feature-01 {
+  &--img {
+    position: relative;
+
+    img {
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+    }
+
+    .subject {
+      position: absolute;
+      bottom: -15px;
+      padding: 3px 17px;
+      left: 20px;
+      border: 0.5px solid #00BB98;
+      background: #FFFFFF;
+      border-radius: 10px;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 24px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  &__body {
+    background: #FFFFFF;
+    padding-top: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 26.54px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 1px solid #E9E5EF;
+
+    @media (min-width:1200px) {
+      box-shadow: 0px 4px 40px rgba(43, 89, 255, 0.08);
+      border: none;
+    }
+
+    &--title {
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 26px;
+    }
+
+    &--ratting {
+      margin-top: 15px;
+
+      i {
+        color: #FD4C5C;
+      }
+    }
+
+    &--button-group {
+      margin-top: 45px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      &-price {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 26px;
+
+        del {
+          font-size: 16px;
+          line-height: 24px;
+          margin-left: 5px;
+          color: rgb(0, 11, 51, 0.5);
+        }
+      }
+
+      .btn {
+        height: 30px;
+        min-width: 101px;
+      }
+    }
+  }
+}
+
+/* Landiing-8 Team Card */
+.card-team-02 {
+  position: relative;
+
+  @media (min-width:1200px) {
+    box-shadow: 0px 4px 40px rgba(43, 89, 255, 0.08);
+  }
+
+  &--img {
+    img {
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      width: 100%;
+    }
+  }
+
+  &__body {
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 20px;
+    border: 1px solid #E9E5EF;
+
+    @media (min-width:1200px) {
+      border: none;
+    }
+
+    &--category {
+      font-weight: 600;
+      display: block;
+      font-size: 16px;
+      line-height: 24px;
+      padding-bottom: 10px;
+    }
+
+    &--name {
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 24px;
+      padding-bottom: 10px;
+    }
+
+    &--specialist {
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 26px;
+    }
+
+    &--info {
+      padding-top: 3px;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 21px;
+    }
+
+    &--button-group {
+      margin-top: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .text {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 21px;
+      }
+
+      .btn-2 {
+        font-weight: 600;
+        font-size: 16px;
+        text-align: center;
+        min-width: 101px;
+        height: 30px;
+        border-radius: 3px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+  }
+
+  &--tag {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+  }
+
+  .ratting {
+    display: flex;
+    align-items: center;
+
+    i {
+      font-size: 14px;
+      margin-right: 10px;
+    }
+
+    font-weight: 600;
+    font-size: 16px;
+    color: #00BB98;
+    background-color: white;
+    padding: 3px 13px;
+    border: 0.5px solid #00BB98;
+    border-radius: 10px;
+  }
+}
+
+/* Blog Card 01*/
+.blog-card-01 {
+  background: #FFFFFF;
+  box-shadow: 0px 4px 40px rgba(43, 89, 255, 0.08);
+  border-radius: 10px;
+
+  &--img {
+    img {
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+    }
+  }
+
+  &__body {
+    padding: 30px 20px;
+
+    &--meta {
+      display: flex;
+      align-items: center;
+      color: #377CFD;
+      margin-bottom: 20px;
+
+      svg {
+        margin-right: 10px;
+        fill: #377CFD;
+      }
+
+      .admmin,
+      .date {
+        display: flex;
+        align-items: center;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 21px;
+      }
+
+      .admmin {
+        margin-right: 30px;
+      }
+    }
+
+    &--content {
+      .title {
+        font-family: 600;
+        line-height: 1.3;
+        font-size: 18px;
+        padding-bottom: 15px;
+
+        @media (min-width:576px) {
+          font-size: 20px;
+        }
+      }
+
+      .text {
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        padding-bottom: 20px;
+      }
+
+      .more-btn {
+        display: flex;
+        align-items: center;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        color: #FD4C5C;
+        position: relative;
+        &::after {
+          display: inline-block;
+          padding-left: 8px;
+          content: "\0279E";
+          transition: transform 0.3s ease-out;
+          font-size: 22px;
+      }
+      &:hover {
+          &::after {
+              transform: translateX(6px);
+          }
+      }
+      }
+    }
+  }
+}
+/* Portfolio Card */
+.portfolio-card{
+  position: relative;
+  display: block;
+  img{
+      border-radius: 10px;
+  }
+  .icon{
+      position: absolute;
+      top: 30px;
+      right: 30px;
+      visibility: hidden;
+  }
+  .content{
+      visibility: hidden;
+      position: absolute;
+      bottom: 30px;
+      left: 30px;
+      h6{
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 1.3;
+      padding-bottom: 5px;
+      color: white !important;
+      @media (min-width:420px) {
+          fon: 20px;
+      }
+      }
+      span{
+          font-size: 16px;
+          line-height: 26px;
+          color: white !important;
+      }
+  }
+  &::before{
+      position: absolute;
+      content: "";
+      background: linear-gradient(90.28deg, #001C80 0.26%, #153ABF 30.33%, #2B59FF 99.79%);
+      height: 100%;
+      width: 0%;
+      transition: .5s;
+      opacity: 0;
+      visibility: hidden;
+      border-radius: 10px;
+  }
+  &:hover{
+      &::before{
+          opacity: 0.7;
+          visibility: visible;
+          width: 100%;
+      }
+      .icon{
+          visibility: visible;
+      }
+      .content{
+          visibility: visible;
+      }
+  }
+}

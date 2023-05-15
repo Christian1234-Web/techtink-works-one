@@ -1,0 +1,26 @@
+[
+    {
+        "id": "fc1",
+        "color": "text-green",
+        "title": "<span class='counter'>28</span>K",
+        "text": "Total Users"
+    },
+    {
+        "id": "fc2",
+        "color": "text-green",
+        "title": "<span class='counter'>13</span>K",
+        "text": "Lifetime Downloads"
+    },
+    {
+        "id": "fc3",
+        "color": "text-green",
+        "title": "<span class='counter'>68</span>K",
+        "text": "Social Likes"
+    },
+    {
+        "id": "fc4",
+        "color": "text-green",
+        "title": "<span class='counter'>10</span>K",
+        "text": "5 Star Rating"
+    }
+]

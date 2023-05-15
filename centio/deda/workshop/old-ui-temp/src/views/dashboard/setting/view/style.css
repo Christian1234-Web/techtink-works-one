@@ -1,0 +1,2 @@
+/* #nav_link:hover{background-color: #9289f3;padding: 2px;transition:all ease;} */
+#nav_link:focus #nav_link{background-color: #9289f3;color: red;text-decoration: underline;}

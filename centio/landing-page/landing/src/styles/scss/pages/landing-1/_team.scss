@@ -1,0 +1,74 @@
+.team-section-01 {
+    background: rgb(43, 89, 255, 0.02);
+    padding-top: 50px;
+    padding-bottom: 60px;
+
+    @media (min-width:768px) {
+        padding-top: 70px;
+        padding-bottom: 80px;
+    }
+
+    @media (min-width:992px) {
+        padding-top: 92px;
+        padding-bottom: 100px;
+    }
+    @media (min-width:1200px) {
+        padding-top: 120px;
+        padding-bottom: 130px;
+    }
+
+    .section-title--team-01 {
+        margin-bottom: 35px;
+        border-radius: 5px;
+
+        @media (min-width:768px) {
+            margin-bottom: 55px;
+        }
+
+        @media (min-width:992px) {
+            margin-bottom: 67px;
+        }
+    }
+
+    .card-team-01 {
+        background: #FFFFFF;
+        padding: 20px 20px 25px 20px;
+        border: 0;
+        transition: .3s;
+        border-radius: 5px;
+
+        &:hover {
+            box-shadow: 0px 4px 40px rgba(43, 89, 255, 0.08);
+        }
+    }
+
+    .card {
+        &-image {
+            img {
+                border-radius: 5px;
+                width: 100%;
+            }
+        }
+
+        &-texts {
+            margin-top: 33px;
+        }
+    }
+    .team-slider--01{
+        @media (min-width:425px) {
+            width: 60%;
+            margin: auto;
+          }
+          @media (min-width:576px) {
+            width: 100%;
+            margin: inherit;
+          }
+          .card-team-01{
+            text-align: center;
+            @media (min-width:576px) {
+                text-align: start;
+            }
+          }
+    }
+}
+

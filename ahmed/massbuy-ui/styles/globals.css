@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+
+
+@font-face {
+  font-family: "Inter-Regular";
+  src: url("../assets/fonts/Inter-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Inter-Bold";
+  src: url("../assets/fonts/Inter-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Inter-SemiBold";
+  src: url("../assets/fonts/Inter-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "Inter-Medium";
+  src: url("../assets/fonts/Inter-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Inter-ExtraBold";
+  src: url("../assets/fonts/Inter-ExtraBold.ttf");
+} 
+
+@layer base {
+  html,
+  body {
+    @apply font-Inter-Regular;
+  }
+}
+
+.loginShadow{
+  box-shadow: 0px 0px 10px 0px #00000040;
+}

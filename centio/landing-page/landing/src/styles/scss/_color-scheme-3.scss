@@ -1,0 +1,297 @@
+@use "theme/theme-3"as *;
+.theme-3{
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: $headingDark;
+  }
+
+  .heading-light {
+    color: $headingLight !important;
+  }
+
+  .text-light {
+    color: $textLight !important;
+  }
+
+  .heading-dark {
+    color: $headingDark !important;
+  }
+
+  .text-dark {
+    color: $textDark !important;
+  }
+
+  .text-primary {
+    color: $primary !important;
+  }
+
+  .text-secondary {
+    color: $secondary !important;
+  }
+
+  .text-tertiary {
+    color: $tertiary !important;
+  }
+
+  .bg-primary {
+    background-color: $primary !important;
+  }
+
+  .bg-secondary {
+    background-color: $secondary !important;
+  }
+
+  .bg-tertiary {
+    background-color: $tertiary !important;
+  }
+
+  .btn-primary-hvr {
+    border-color: $secondary;
+    color: #fff !important;
+    background: {
+      image: linear-gradient(45deg,#f81e30 50%, transparent 50%);
+      position: 100%;
+      size: 400%;
+    }
+    transition: background 400ms ease-in-out;
+    
+    &:hover {
+      color: #fff !important;
+      background-position: 0;
+    }
+  }
+
+  .btn-secondary {
+    background-color: $secondary !important;
+    color: #fff;
+  }
+
+  .btn-tertiary {
+    background-color: $tertiary !important;
+    color: #fff;
+  }
+
+  .fill-primary {
+    fill: $primary !important;
+
+    path {
+      fill: $primary !important;
+    }
+  }
+
+  .fill-secondary {
+    fill: $secondary !important;
+
+    path {
+      fill: $secondary !important;
+    }
+  }
+
+  .fill-tertiary {
+    fill: $tertiary !important;
+
+    path {
+      fill: $tertiary !important;
+    }
+  }
+
+  .stroke-primary {
+    stroke: $primary !important;
+  }
+
+  .stroke-secondary {
+    stroke: $secondary !important;
+  }
+
+  .stroke-tertiary {
+    stroke: $tertiary !important;
+  }
+
+  .bg-gradient-primary-secondary {
+    background: linear-gradient(90deg, lighten($primary, 2%) 0%, $secondary 100%);
+  }
+
+  .border-primary {
+    border-color: $primary !important;
+  }
+
+  .border-secondary {
+    border-color: $secondary !important;
+  }
+
+  .border-tertiary {
+    border-color: $tertiary !important;
+  }
+
+  .text-gradient {
+    background: -webkit-linear-gradient($primary, $secondary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .btn-white-gradient {
+    --radius: 3px;
+    --border-width: 2px;
+    background: #fff;
+    border-width: var(--border-width);
+    border-style: solid;
+    border-color: transparent;
+    position: relative;
+    z-index: 1;
+    border-radius: var(--radius);
+
+    &:before {
+      content: "";
+      background: linear-gradient(90deg, $primary 0%, $secondary 100%);
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      z-index: -2;
+      border-radius: var(--radius);
+      transition: 0.4s;
+    }
+
+    &:after {
+      content: "";
+      background: #fff;
+      position: absolute;
+      top: var(--border-width);
+      left: var(--border-width);
+      right: var(--border-width);
+      bottom: var(--border-width);
+      z-index: -1;
+      transition: 0.4s;
+    }
+
+    &.active,
+    &:hover {
+      color: #fff;
+
+      &:after {
+        left: 100%;
+      }
+    }
+
+    &.active {
+      &:hover {
+        color: $headingDark;
+
+        &:after {
+          left: var(--border-width);
+        }
+      }
+    }
+  }
+
+  .site-menu-main .sub-menu>li>a {
+    &:hover {
+      color: $primary !important;
+    }
+  }
+
+
+
+  /* ------------------------------ 
+    Button Theming
+--------------------------------*/
+
+  .btn-primary {
+    background-color: $primary !important;
+    border-color: $primary !important;
+    color: #fff;
+  }
+
+  .btn-secondary {
+    background-color: $secondary !important;
+    border-color: $secondary !important;
+    color: #fff;
+  }
+
+  .btn-tertiary {
+    background-color: $tertiary !important;
+    border-color: $tertiary !important;
+    color: #fff;
+  }
+
+  .btn-primary-outline {
+    border-color: $primary !important;
+    color: $primary !important;
+    &:before {
+      background: $primary !important;
+    }
+    &:hover{
+      color: #fff !important;
+    }
+  }
+
+  .btn-primary-outline-reverse {
+    border-color: $primary !important;
+    &:before {
+      background: $primary !important;
+    }
+    &:hover {
+      border-color: $primary !important;
+      color: $primary !important;
+    }
+  }
+
+  .nav-tab--content-2:not(.nav-tab--content-2--02) .nav-link {
+    color: $secondary !important;
+  }
+
+  .nav-tab--content-2:not(.nav-tab--content-2--02) .nav-link.active {
+    color: $primary !important;
+    border-color: $primary !important;
+  }
+
+  .card-pricing--03:not(.active) .btn:before,
+  .card-pricing--03.active .btn:before,
+  .card-pricing--04:not(.active) .btn:before,
+  .card-pricing--04.active .btn:before {
+    background-color: $primary;
+  }
+
+  .card-pricing--03:not(.active) .btn,
+  .card-pricing--04:not(.active) .btn{
+    border-color: $primary !important;
+    color: $primary;
+  }
+  .card-pricing--03:not(.active) .btn:hover,
+  .card-pricing--04:not(.active) .btn:hover{
+    color: #fff;
+  }
+  .card-pricing--03.active .btn:hover
+  .card-pricing--04.active .btn:hover {
+    border-color: $primary !important;
+    color: $primary !important;
+  }
+
+  .card-pricing--03.active .btn,
+  .card-pricing--04.active .btn {
+    border-color: $primary !important;
+  }
+
+  .nav-tab--content-2.nav-tab--content-2--02 .nav-link.active {
+    color: $tertiary !important;
+    opacity: 1;
+    border-bottom: 2px solid $tertiary !important;
+  }
+
+
+  .site-header {
+    .site-menu-main {
+      .drop-menu-item>a:hover {
+        @media (min-width:992px) {
+          color: $primary !important;
+        }
+      }
+    }
+  }
+}

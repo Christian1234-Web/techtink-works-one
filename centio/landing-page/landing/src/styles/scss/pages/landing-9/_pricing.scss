@@ -1,0 +1,68 @@
+.pricing-section-05 {
+  padding: 60px 0;
+position: relative;
+background: rgb(43, 89, 255,0.02);
+&__shape-1{
+  position: absolute;
+  left: 0;
+  top: -1px;
+  width: 6.8%;
+}
+&__shape-2{
+  position: absolute;
+  right: 0;
+  bottom: -1px;
+  width: 6%;
+}
+  @media (min-width:768px) {
+    padding: 80px 0;
+  }
+
+  @media (min-width:992px) {
+    padding: 100px 0;
+
+  }
+  @media (min-width:1200px) {
+    padding: 130px 0;
+
+  }
+
+  &__title {
+    margin-bottom: 30px;
+    @media (min-width:768px) {
+      margin-bottom: 60px;
+    }
+  }
+  &__price-card{
+    .card-pricing--04{
+      margin-bottom: 30px;
+      @media (min-width:992px) {
+        margin-bottom: 0px;
+      }
+    }
+    .col-lg-4{
+      &:first-child{
+        .card-pricing--04{
+          &__list{
+            li{
+              &:last-child{
+                display: none;
+              }
+            }
+          }
+        }
+      }
+      &:last-child{
+        .card-pricing--04{
+          &__list{
+            li{
+              &:last-child{
+                display: none;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

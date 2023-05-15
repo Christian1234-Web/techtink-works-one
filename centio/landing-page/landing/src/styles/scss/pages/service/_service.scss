@@ -1,0 +1,201 @@
+/*
+    Note: This section is similar to landing 6 about section. if you have used that section you can delete the duplicate codes poointed bellow.
+*/
+
+/* duplicated code starts*/
+/*
+.service-section-01 {
+    padding: 60px 0;
+
+    @media (min-width:768px) {
+        padding: 80px 0;
+
+    }
+
+    @media (min-width:992px) {
+
+        padding: 130px 0;
+    }
+
+    position: relative;
+
+    .section-title {
+        margin-bottom: 35px;
+
+        @media (min-width:576px) {
+            margin-bottom: 80px;
+        }
+    }
+
+    &__shape {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 22.9%;
+    }
+
+    &__card {
+        padding: 50px 45px;
+        text-align: center;
+        background: #FFFFFF;
+        border: 0.25px solid #000B33;
+        box-sizing: border-box;
+        border-radius: 10px;
+        transition: .3s;
+
+        @media (min-width:576px) {
+            padding: 35px 30px;
+
+        }
+
+        @media (min-width:1200px) {
+            padding: 50px 64px;
+        }
+
+        &:hover {
+            box-shadow: 0px 4px 40px rgba(43, 89, 255, 0.08);
+            border: 0.25px solid transparent;
+        }
+
+        .widget-icon {
+            background: rgb(55, 124, 253, 0.1);
+            min-width: 70px;
+            min-height: 70px;
+            max-width: 70px;
+            max-height: 70px;
+            border-radius: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+            margin-bottom: 30px;
+
+            @media (min-width:768px) {
+                min-width: 80px;
+                min-height: 80px;
+                max-width: 80px;
+                max-height: 80px;
+            }
+        }
+
+        .widget-title {
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 1.444444444444444;
+
+            @media (min-width:576px) {
+                font-size: 20px;
+            }
+        }
+
+        .widget-text {
+            font-size: 16px;
+            line-height: 26px;
+            color: rgb(0, 11, 51, 0.8);
+        }
+    }
+}
+*/
+/*duplicated code ends*/
+
+.service-section-01--2 {
+    position: relative;
+    background: rgb(55, 124, 253, 0.02);
+
+    &__shape-1 {
+        position: absolute;
+        left: 0%;
+        width: 5%;
+        bottom: 6%;
+    }
+
+    &__shape-2 {
+        position: absolute;
+        right: 0%;
+        width: 3%;
+        top: 8%;
+    }
+
+    &__card {
+        border: 0;
+
+        &:hover {
+            border: 0;
+            box-shadow: -6px 6px 60px rgba(0, 0, 0, 0.08);
+        }
+    }
+
+    .col-lg-4 {
+        &:nth-child(1) {
+            .service-section-01--2__card {
+                .widget-icon {
+                    background: rgb(253, 76, 92,0.1);
+                }
+            }
+        }
+
+        &:nth-child(2) {
+            .service-section-01--2__card {
+                .widget-icon {
+                    background: rgb(0, 187, 152,0.1);
+                }
+            }
+        }
+
+        &:nth-child(3) {
+            .service-section-01--2__card {
+                .widget-icon {
+                    background: rgb(55, 124, 253,0.1);
+                }
+            }
+        }
+
+        &:nth-child(4) {
+            .service-section-01--2__card {
+                .widget-icon {
+                    background: rgb(255, 200, 62,0.1);
+                }
+            }
+        }
+
+        &:nth-child(5) {
+            .service-section-01--2__card {
+                .widget-icon {
+                    background: rgb(120, 27, 255,0.1);
+                }
+            }
+        }
+
+        &:nth-child(6) {
+            .service-section-01--2__card {
+                .widget-icon {
+                    background: rgb(0, 28, 128,0.1);
+                }
+            }
+        }
+
+        &:nth-child(7) {
+            .service-section-01--2__card {
+                .widget-icon {
+                    background: rgb(0, 187, 152,0.1);
+                }
+            }
+        }
+
+        &:nth-child(8) {
+            .service-section-01--2__card {
+                .widget-icon {
+                    background: rgb(253, 76, 92,0.1);
+                }
+            }
+        }
+
+        &:nth-child(9) {
+            .service-section-01--2__card {
+                .widget-icon {
+                    background: rgb(255, 200, 62,0.1);
+                }
+            }
+        }
+    }
+}

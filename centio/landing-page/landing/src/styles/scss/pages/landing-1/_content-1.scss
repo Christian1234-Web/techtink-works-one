@@ -1,0 +1,116 @@
+.content-section-01 {
+    background: rgb(43, 89, 255, 0.93);
+    position: relative;
+    z-index: 11;
+    padding: 60px 0;
+    @media (min-width:768px) {
+        padding: 80px 0;
+        
+    }
+    @media (min-width:992px) {
+        padding: 0;
+    }
+    .section-shape{
+        position: absolute;
+        top: -1px;
+        right: 0;
+        z-index: -1;
+    }
+    &__image-group{
+        max-width: 80%;
+        margin: auto;
+        margin-bottom: 30px;
+    @media (min-width:992px) {
+        margin-bottom: 0px;
+        width: 100%;
+        margin: inherit;
+        margin-bottom: 0;
+        margin: -40px 0;
+       }
+    @media (min-width:1200px) {
+        margin-bottom: 0px;
+        max-width: 100%;
+        margin: inherit;
+        margin-bottom: 0;
+        margin: -40px 0;
+       }
+       @media (min-width:1400px) {
+        padding-right: 30px;
+       }
+    }
+
+    &__image {
+        position: relative;
+        .shape-half-circle {
+            position: absolute;
+            top: 33%;
+            left: -22%;
+            width: 22%;
+            z-index: -11;
+            img,svg {
+                width: 100%;
+            }
+        }
+        .small-shape{
+            position: absolute;
+            top: 16.5%;
+            left: -28%;
+            width: 7%;
+    
+            img,
+            svg {
+                width: 100%;
+                -webkit-animation: mover 1s infinite  alternate;
+                animation: mover 1s infinite  alternate;
+            }
+        }
+    }
+
+    &__text{
+        @media (min-width:768px) {
+            padding-left: 30px;
+        }
+        @media (min-width:992px){
+            padding-left: 45px;
+        }
+        @media (min-width:1200px){
+            padding-left: 0px;
+        }
+    }
+    
+
+
+    &__button-group {
+        margin-top: 40px;
+       @media (min-width:992px) {
+        margin-top: 57px;
+       }
+        a{
+            margin-right: 5px;
+            margin-bottom: 5px;
+            display: inline-block;
+            max-width: 130px;
+            @media (min-width:480px) {
+                max-width: 160px;
+            }
+            @media (min-width:992px) {
+                max-width: 100%;
+            }
+        }
+        img{
+            @media (max-width:992px) {
+                width: 100%;
+            }
+        }
+       
+    }
+}
+
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-15px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-15px); }
+}

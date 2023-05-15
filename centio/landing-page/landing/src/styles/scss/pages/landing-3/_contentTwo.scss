@@ -1,0 +1,63 @@
+.content-section-06 {
+    background: rgb(120, 27, 255, 0.02);
+    &__image-group {
+        text-align: center;
+        position: relative;
+        img {
+            max-width: 100%;
+            filter: drop-shadow(30px 4px 60px rgba(46, 25, 55, 0.19));
+        }
+
+        .content-card-1 {
+            position: absolute;
+            top: 23%;
+            right: -3%;
+            width: 34.1%;
+
+            img {
+                filter: drop-shadow(0px 4px 40px rgba(43, 89, 255, 0.08));
+                width: 100%;
+            }
+
+        }
+
+        .content-card-2 {
+            position: absolute;
+            top: 44%;
+            left: 0;
+            width: 31.3%;
+
+            img {
+                filter: drop-shadow(0px 34px 90px rgba(41, 75, 198, 0.18));
+                width: 100%;
+            }
+
+        }
+    }
+
+    &__texts {
+        padding-top: 60px;
+        @media (min-width:768px) {
+            padding-top: 80px;
+        }
+        @media (min-width:992px) {
+            padding-top: 0;
+        }
+        .content-title {
+            h2 {
+                margin-bottom: 20px;
+            }
+
+            .btn {
+                min-width: 150px;
+                margin-top: 28px;
+                @media (min-width:480px) {
+                    margin-top: 34px;
+                }
+                @media (min-width:575px) {
+                    margin-top: 41px;
+                }
+            }
+        }
+    }
+}

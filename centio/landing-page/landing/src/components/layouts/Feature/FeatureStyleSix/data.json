@@ -1,0 +1,20 @@
+[
+    {
+      "id": 1,
+      "title": "Qualified Doctors",
+      "icon": "./image/home-8/f-icon-1.svg",
+      "text": "Fully layered dolor sit amet, consectetur adipisicing elit. Facere, nobis, id expedita dolores officiis laboriosam."
+    },
+    {
+      "id": 2,
+      "title": "Trusted Treatment",
+      "icon": "./image/home-8/f-icon-2.svg",
+      "text": "Fully layered dolor sit amet, consectetur adipisicing elit. Facere, nobis, id expedita dolores officiis laboriosam."
+    },
+    {
+      "id": 3,
+      "title": "24/7 Services",
+      "icon": "./image/home-8/f-icon-3.svg",
+      "text": "Fully layered dolor sit amet, consectetur adipisicing elit. Facere, nobis, id expedita dolores officiis laboriosam."
+    }
+  ]

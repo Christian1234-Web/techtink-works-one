@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "rating":"2",
+        "image": "./image/home-2/testimonial-1.png",
+        "name": "Mila McSabbu",
+        "position": "Digital Marketer",
+        "text": "Leading an organization is incredibly rewarding and equally humbling. Confidence and humility. Every success is built onIt requires healthy."
+    },
+    {
+        "id": 2,
+        "rating":"4",
+        "image": "./image/home-2/testimonial-2.png",
+        "name": "Jenny Wilson",
+        "position": "Graphic Designer",
+        "text": "Leading an organization is incredibly rewarding and equally humbling. Confidence and humility. Every success is built onIt requires healthy."
+    },
+    {
+        "id": 3,
+        "rating":"5",
+        "image": "./image/home-2/testimonial-3.png",
+        "name": "Robert Fox",
+        "position": "Founder, Oppora",
+        "text": "Leading an organization is incredibly rewarding and equally humbling. Confidence and humility. Every success is built onIt requires healthy."
+    }
+]

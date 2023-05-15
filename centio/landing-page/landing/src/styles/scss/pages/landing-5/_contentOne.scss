@@ -1,0 +1,156 @@
+@use "../../abstracts/colors" as color;
+.content-section-11 {
+    padding: 60px 0;
+    overflow: hidden;
+    @media (min-width:768px) {
+        padding: 80px 0;
+        
+    }
+    @media (min-width:992px) {
+        padding: 90px 0 100px;
+        
+    }
+    @media (min-width:1200px) {
+        
+        padding: 125px 0 130px;
+    }
+    &__image-group {
+        @media (min-width:992px) {
+            margin-right: -70%;
+        }
+        @media (min-width:1200px) {
+            margin-right: -93%;
+            margin-left: -24px;
+        }
+    }
+
+    &__texts {
+        .subtitle {
+            margin-bottom: 20px;
+        }
+        &--accordion{
+            margin-top: 40px;
+            .accordion-item{
+                border: 0;
+                margin-bottom: 30px;
+                background: #FFFFFF;
+                // border: 0.25px solid ;
+                border-radius: 10px;
+                box-shadow: 0px 4px 40px rgba(43, 89, 255, 0.08);
+                &:last-child{
+                    margin-bottom: 0;
+                }
+                position: relative;
+                .accordion-header{
+                    transition: .3s;
+                    display: flex;
+                    padding: 20px 20px;
+                    @media (min-width:480px) {
+                        padding: 20px 30px;
+                    }
+                    .icon-block {
+                        font-weight: bold;
+                        font-size: 24px;
+                        min-width: 40px;
+                        min-height: 40px;
+                        max-width: 40px;
+                        max-height: 40px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        border-radius: 10px;
+                        margin-right: 20px;
+                        @media (min-width:576px) {
+                            font-size: 30px;
+                            min-width: 50px;
+                            min-height: 50px;
+                            max-width: 50px;
+                            max-height: 50px;
+                        }
+                        &.icon-green{
+                            background-color:rgba(color.$caribbean-green,0.2);
+                            color:color.$caribbean-green!important;
+                        }
+                        &.icon-red{
+                            background-color:rgba(color.$carnation,0.2);
+                            color:color.$carnation!important;
+                        }
+                        &.icon-blue{
+                            background-color:rgba(color.$blue-ribbon,0.2);
+                            color:color.$blue-ribbon!important;
+                        }
+                    }
+                    .accordion-button{
+                        position: static;
+                        transition: .3s;
+                        border: 0;
+                        font-weight: bold;
+                        font-size: 16px;
+                        line-height: 1.3;
+                        color: rgba(0, 11, 51,0.8) !important;
+                        box-shadow: none;
+                        background-color: inherit !important;
+                        padding: 0;
+                        @media (min-width:576px) {
+                            font-size: 18px;
+                            
+                        }
+                        @media (min-width:1200px) {
+                            font-size: 20px;
+                            
+                        }
+                        &:before{
+                            content: "";
+                            width: 100%;
+                            transition: .3s;
+                            height: 100%;
+                            position: absolute;
+                            top:0;
+                            left: 0;
+                            border: 0.25px solid rgba(0, 187, 152,0.25);
+                            border-radius: 10px;
+                            opacity: 0;
+                        }
+                        &.collapsed{
+                            transition: .3s;
+                            &:before{
+                                opacity: 1;
+                                transition: .3s;
+                            }
+                        }
+                        &::after{
+                            font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f078";
+                            background-image: none;
+                        }
+                    }
+                }
+            }
+            .accordion-collapse{
+                transition: .3s;
+                margin-left: 10px;
+                &.show{
+                    @media (max-width:575px) {
+                        margin-top: -10px;
+                    }
+                    margin-top: -18px;
+                }
+            }
+            .accordion-body{
+                padding-right: 30px;
+                padding-bottom: 20px;
+                padding-top: 0;
+                font-size: 14px;
+                line-height: 1.625;
+                padding-left: 72px;
+                @media (min-width:480px) {
+                    padding-left: 81px;
+                }
+                @media (min-width:576px) {
+                    padding-left: 100px;
+                    font-size: 18px;
+
+                }
+            }
+        }
+    }
+}

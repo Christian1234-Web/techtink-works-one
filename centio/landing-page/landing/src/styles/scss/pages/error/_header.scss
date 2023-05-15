@@ -1,0 +1,30 @@
+
+/* Landing One Header Button */
+.site-header__btns--404{
+    .btn{
+        height: 45px;
+    }
+    .btn-1{
+        color:#000B33;
+        @media (min-width:992px) {
+            margin-right: 20px;
+            min-width:80px;
+        }
+    }
+    .btn-2{
+        min-width:120px;
+        color:#fff ;
+        background-color: #FD4C5C !important;
+        border-color: #FD4C5C !important;
+        @media (min-width:992px) {
+            min-width:120px;
+        }
+    }
+    @media (max-width:992px) {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+}
+
+

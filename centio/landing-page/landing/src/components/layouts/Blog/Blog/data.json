@@ -1,0 +1,44 @@
+[
+    { "id":"b1",
+      "image": "./image/blog/blog-1.png",
+      "title": "Human-Readable JavaScript: How to Compile & Run Your First Java Program",
+      "meta": "Admin",
+      "date": "17 July, 2021",
+      "text": "It is almost impossible to read the news without coming across a lead story elections through fake social media accounts..."
+    },
+    { "id":"b2",
+      "image": "./image/blog/blog-2.png",
+      "title": "What Are the Best Languages for Web Application Development in 2021?",
+      "meta": "Admin",
+      "date": "10 July, 2021",
+      "text": "It is almost impossible to read the news without coming across a lead story elections through fake social media accounts..."
+    },
+    { "id":"b3",
+      "image": "./image/blog/blog-3.png",
+      "title": "Optimizing Single-Page Applications: Top 3 Approaches",
+      "meta": "Admin",
+      "date": "28 June, 2021",
+      "text": "It is almost impossible to read the news without coming across a lead story elections through fake social media accounts..."
+    },
+    { "id":"b4",
+      "image": "./image/blog/blog-4.png",
+      "title": "How to Use the Wagtail CMS for Django: An Overview",
+      "meta": "Admin",
+      "date": "05 June, 2021",
+      "text": "It is almost impossible to read the news without coming across a lead story elections through fake social media accounts..."
+    },
+    { "id":"b5",
+      "image": "./image/blog/blog-5.png",
+      "title": "Flutter vs React Native vs Xamarin for Cross Platform Development",
+      "meta": "Admin",
+      "date": "25 May, 2021",
+      "text": "It is almost impossible to read the news without coming across a lead story elections through fake social media accounts..."
+    },
+    { "id":"b6",
+      "image": "./image/blog/blog-6.png",
+      "title": "Best SEO Practices for Developers: Put Your Skills to Work",
+      "meta": "Admin",
+      "date": "28 May, 2021",
+      "text": "It is almost impossible to read the news without coming across a lead story elections through fake social media accounts..."
+    }
+  ]

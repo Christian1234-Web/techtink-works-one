@@ -1,0 +1,46 @@
+.counter-section-04 {
+    padding: 60px 0;
+    background: #001C80;
+    position: relative;
+    @media (min-width:768px) {
+        padding: 85px 0;
+    }
+    @media (min-width:992px) {
+        padding: 100px 0;
+    }
+
+    .widget-counter {
+        @media (min-width:768px) {
+            align-items: flex-start;
+        }
+        .widget-icon{
+            min-height: 50px;
+            max-height: 50px;
+            min-width: 50px;
+            max-width: 50px;
+            background-color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 500px;
+            @media (min-width:576px) {
+                min-height: 60px;
+                max-height: 60px;
+                min-width: 60px;
+                max-width: 60px;
+            }
+            @media (min-width:768px) {
+                margin-top: 10px;
+            }
+        }
+    }
+    &__shape{
+        position: absolute;
+        top: 0;
+        left: 0;
+        svg{
+            width: 100%;
+        }
+    }
+}
+

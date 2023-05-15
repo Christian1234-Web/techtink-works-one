@@ -1,0 +1,42 @@
+.termscontent-section{
+    padding: 60px 0;
+    background: rgb(55, 124, 253,0.02);
+    @media (min-width:768px) {
+        padding: 80px 0;
+    }
+    @media (min-width:992px) {
+        padding: 130px 0;
+    }
+    &__content{
+        @media (min-width:420px) {
+            background: #FFFFFF;
+            box-shadow: 0px 4px 40px rgba(43, 89, 255, 0.08);
+            border-radius: 10px;
+            padding: 30px 60px;
+        }
+        @media (min-width:768px) {
+            padding: 60px 110px;
+        }
+        &--texts{
+            margin-bottom: 30px;
+            @media (min-width:576px) {
+                margin-bottom: 40px;
+            }
+            &:last-child{
+                margin-bottom: 0;
+            }
+            .title{
+                font-size: 24px;
+                font-weight: bold;
+                line-height: 1.4;
+                @media (min-width:576px) {
+                    font-size: 30px;
+                }
+            }
+            p{
+            font-size: 16px;
+            line-height: 26px;
+            }
+        }
+    }
+}
